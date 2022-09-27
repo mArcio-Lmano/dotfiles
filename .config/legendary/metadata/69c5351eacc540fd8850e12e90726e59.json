@@ -1,0 +1,107 @@
+{
+  "app_name": "69c5351eacc540fd8850e12e90726e59",
+  "app_title": "3 out of 10, EP 5: \"The Rig Is Up!\"",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "69c5351eacc540fd8850e12e90726e59",
+      "asset_id": "69c5351eacc540fd8850e12e90726e59",
+      "build_version": "R05_S01_E06_V007_CL16693",
+      "catalog_item_id": "485ac991cae2480f9887daefb5c9bd48",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "6a70006d598948bfa6c71ceb334ad635"
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "categories": [
+      {
+        "path": "public"
+      },
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2020-06-23T03:14:58.717Z",
+    "customAttributes": {
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CanSkipKoreanIdVerification": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "threeoutof10Ep5"
+      },
+      "MonitorPresence": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "PresenceId": {
+        "type": "STRING",
+        "value": "6a70006d598948bfa6c71ceb334ad635"
+      },
+      "RequirementsJson": {
+        "type": "STRING",
+        "value": "[]"
+      },
+      "UseAccessControl": {
+        "type": "STRING",
+        "value": "false"
+      }
+    },
+    "description": "3 out of 10, EP 5: \"The Rig Is Up!\"",
+    "developer": "Terrible Posture Games, Inc.",
+    "developerId": "o-2yllrrr7vufkhal9nk3cswwgug977c",
+    "endOfSupport": false,
+    "entitlementName": "485ac991cae2480f9887daefb5c9bd48",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "egstore"
+    ],
+    "id": "485ac991cae2480f9887daefb5c9bd48",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 1600,
+        "md5": "230f1086d959795ef3df6ce69f915cc6",
+        "size": 481236,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2020-09-02T20:22:47.604Z",
+        "url": "https://cdn1.epicgames.com/6a70006d598948bfa6c71ceb334ad635/item/EGS_3outof10EP5TheRigIsUp_TerriblePostureGamesInc_S2-1200x1600-230f1086d959795ef3df6ce69f915cc6.jpg",
+        "width": 1200
+      },
+      {
+        "height": 1440,
+        "md5": "90a716d5080e7d7f9aefd3bd647c3b6d",
+        "size": 766217,
+        "type": "DieselGameBox",
+        "uploadedDate": "2020-09-02T20:22:57.662Z",
+        "url": "https://cdn1.epicgames.com/6a70006d598948bfa6c71ceb334ad635/item/EGS_3outof10EP5TheRigIsUp_TerriblePostureGamesInc_S1-2560x1440-90a716d5080e7d7f9aefd3bd647c3b6d.jpg",
+        "width": 2560
+      }
+    ],
+    "lastModifiedDate": "2020-09-03T14:29:07.991Z",
+    "namespace": "6a70006d598948bfa6c71ceb334ad635",
+    "releaseInfo": [
+      {
+        "appId": "69c5351eacc540fd8850e12e90726e59",
+        "dateAdded": "2020-06-23T00:00:00.000Z",
+        "id": "547b6e72bd2643179c496737059e214e",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "status": "ACTIVE",
+    "title": "3 out of 10, EP 5: \"The Rig Is Up!\"",
+    "unsearchable": false
+  }
+}

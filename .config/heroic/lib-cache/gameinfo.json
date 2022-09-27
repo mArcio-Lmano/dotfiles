@@ -1,0 +1,280 @@
+{
+	"3622b6ddc5c849b1826085d5fe492eae": {
+		"about": {
+			"image": {
+				"src": "https://cdn2.unrealengine.com/egs-niohthecompleteedition-koeitecmogamescoltd-s2-1200x1600-5542002a7e29.jpg",
+				"_type": "Diesel Image"
+			},
+			"developerAttribution": "KOEI TECMO GAMES CO., LTD.",
+			"_type": "Diesel Product About",
+			"publisherAttribution": "KOEI TECMO GAMES CO., LTD.",
+			"description": "Ready to die? Experience the newest brutal action game from Team NINJA and Koei Tecmo Games. In the age of samurai, a lone traveler lands on the shores of Japan. He must fight his way through the vicious warriors and supernatural Yokai that infest the land in order to find that which he seeks.\n\n# Product includes:\nDragon of the North\nThis expansion opens up the Tohoku region, where the \"one-eyed dragon\" Date Masamune is secretly gathering spirit stones.\n\nDefiant Honor\nFight your way through the Siege of Osaka's winter campaign as you follow the story of one of Japan's greatest generals from the Warring States period, the brave Sanada Yukimura.\n\nBloodshed's End\nJoin the summer campaign of the Siege of Osaka as the Warring States period draws to a close in this, the final chapter of William's tale.\n\n# PC Features:\n- Gamepad compatibility\n- 4K Ultra-HD support*\n- Cross-play with Steam players\n\n*Requires a monitor/PC components that support these modes.\n\nExclusive Bonus\nAn exclusive \"Fujin Helmet\" you can claim by selecting \"Boons\" from a shrine. \n![Image 1](https://cdn2.unrealengine.com/fujin-helmet-2500x2500-9c5a89d2a7c0.jpg)\n\nPlease note that some online features of this title may be changed or removed in the future.\nPlease visit the official website for more details: https://teamninja-studio.com/nioh/\n\nNioh 2 - The Complete Edition is also available on the Epic Games Store:\nhttps://www.epicgames.com/store/p/nioh-2-the-complete-edition\n\n\n©KOEI TECMO GAMES CO., LTD All rights reserved.\n",
+			"shortDescription": "Ready to die? Experience a brutal action game from Team NINJA and Koei Tecmo Games. In the age of samurai, a lone traveler must fight his way through the vicious warriors and supernatural Yokai that infest the land in order to find that which he seeks. ",
+			"title": "Nioh: The Complete Edition",
+			"developerLogo": {
+				"_type": "Diesel Image"
+			}
+		},
+		"reqs": [
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "OS",
+				"minimum": "Windows 8.1(64bit) Windows 10 (64bit required)",
+				"recommended": "Windows® 10 64bit, Windows® 8.1 64bit"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Processor",
+				"minimum": "Intel® Core™ i5 3550 or over",
+				"recommended": "Intel® Core™ i7 4770K or over"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Memory",
+				"minimum": "6 GB RAM",
+				"recommended": "8 GB RAM"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Storage",
+				"minimum": "80 GB",
+				"recommended": "80 GB"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Direct X",
+				"minimum": "Version 11",
+				"recommended": "Version 11"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Graphics",
+				"minimum": "NVIDIA® GeForce® GTX 780 VRAM 3GB or over　AMD Radeon™ R9 280 VRAM 3GB or overr",
+				"recommended": "NVIDIA® GeForce® GTX 1060 VRAM 6GB or over　AMD Radeon™ R9 380X VRAM 4GB or over"
+			}
+		]
+	},
+	"0bd3e505924240adb702295fa08c1eff": {
+		"about": {
+			"image": {
+				"src": "https://cdn2.unrealengine.com/egs-wolfensteintheneworder-machinegames-s2-1200x1600-9a54ea407fbe.jpg",
+				"_type": "Diesel Image"
+			},
+			"developerAttribution": "Machine Games",
+			"_type": "Diesel Product About",
+			"publisherAttribution": "Bethesda Softworks",
+			"description": "Developed by MachineGames, a studio comprised of a seasoned group of developers recognized for their work creating story-driven games, Wolfenstein offers a deep game narrative packed with action, adventure and first-person combat.\n\nIntense, cinematic and rendered in stunning detail with id® Software’s id Tech® engine, Wolfenstein sends players across Europe on a personal mission to bring down the Nazi war machine. With the help of a small group of resistance fighters, infiltrate their most heavily guarded facilities, battle high-tech Nazi legions, and take control of super-weapons that have conquered the earth – and beyond.\n\n# The Action and Adventure\n\nWolfenstein's breath-taking set pieces feature storming a beachfront fortress on the Baltic coast, underwater exploration, player-controlled Nazi war machines, and much more – all combined to create an exhilarating action-adventure experience.\n\n# The Story and Characters\n\nHi-octane action and thrilling adventure weaved together into a tightly paced, super immersive game narrative featuring memorable characters.\n\n# The Arsenal and Assault\n\nBreak into secret research facilities and heavily guarded weapon stashes to upgrade your tools of destruction. Experience intense first-person combat as you go up against oversized Nazi robots, hulking Super Soldiers and elite shock troops.",
+			"shortDescription": "Wolfenstein®: The New Order reignites the series that created the first-person shooter genre. Set against a backdrop of an alternate 1960s, discover an unfamiliar world ruled by a familiar enemy—one that has changed and twisted history as you know it.",
+			"title": "",
+			"developerLogo": {
+				"_type": "Diesel Image"
+			}
+		},
+		"reqs": [
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "OS",
+				"minimum": "64-bit Windows 7",
+				"recommended": "64-bit Windows 8"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Processor",
+				"minimum": "Intel Core i7 or equivalent AMD",
+				"recommended": "Requires a 64-bit processor and operating system"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Memory",
+				"minimum": "4 GB RAM",
+				"recommended": "4 GB RAM"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Storage",
+				"minimum": "50 GB available space"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Graphics",
+				"minimum": "GeForce 460, ATI Radeon HD 6850"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Additional Requirement ",
+				"minimum": "AMD Radeon users: Please install AMD Catalyst™ 14.4"
+			}
+		]
+	},
+	"c7f9346e3db148fca6dd63e9dd8451bd": {
+		"about": {},
+		"reqs": []
+	},
+	"c9be94273fe244c08032ca493ad87434": {
+		"about": {
+			"image": {
+				"_type": "Diesel Image"
+			},
+			"developerAttribution": "Ubisoft",
+			"_type": "Diesel Product About",
+			"publisherAttribution": "Ubisoft",
+			"description": "As Jacob Frye, a young and reckless Assassin, use your skills to help those trampled by the march of progress. \nTravel the city at the height of the Industrial Revolution and meet iconic historical figures. From Westminster to Whitechapel, you will come across Darwin, Dickens, Queen Victoria… and many more.\nAs a gang leader, strengthen your stronghold and rally rival gang members to your cause, in order to take back the capital from the Templars’ hold.",
+			"shortDescription": "London, 1868. In the heart of the Industrial Revolution, play as Jacob Frye - a brash and charismatic Assassin.",
+			"title": "Assassin's Creed Syndicate",
+			"developerLogo": {
+				"_type": "Diesel Image"
+			}
+		},
+		"reqs": [
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "OS",
+				"minimum": "Windows 7 SP1 or Windows 8.1 or Windows 10 (64bit versions)",
+				"recommended": "Windows 7 SP1 or Windows 8.1 or Windows 10 (64bit versions)"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "CPU",
+				"minimum": "Intel Core i5 2400s @ 2.5 GHz / AMD FX 6350 @ 3.9 GHz",
+				"recommended": "Intel Core i7 3770 @ 3.5 GHz / AMD FX 8350 @ 4.0 GHz"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "GPU",
+				"minimum": "NVIDIA GeForce GTX 660 / AMD Radeon R9 270 (2GB VRAM with Shader Model 5.0)",
+				"recommended": "NVIDIA GeForce GTX 760 (4GB) or the newer GTX 970 (4GB) / AMD Radeon R9 280X (3GB of VRAM) or better"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Memory",
+				"minimum": "6 GB RAM",
+				"recommended": "8 GB RAM"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Storage",
+				"minimum": "---",
+				"recommended": ""
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Sound Card",
+				"minimum": "DirectX Compatible Sound Card with latest drivers",
+				"recommended": "DirectX Compatible Sound Card with latest drivers"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Additional Notes",
+				"minimum": "*Technical Notice from the developer: For a recommended experience, the game requires a video card with at least 3GB of VRAM when playing at a full HD resolution. While we encourage you to fiddle with the advanced options to fully customize your gaming experience, please keep an eye out for the VRAM meter usage when you adjust these settings."
+			}
+		]
+	},
+	"2736ab9fec9c4a93a7a2872ed5154d4b": {
+		"about": {
+			"image": {
+				"src": "https://cdn2.unrealengine.com/egs-rage2-idsoftware-s2-1200x1600-ee8fcbffe5b0.jpg",
+				"_type": "Diesel Image"
+			},
+			"developerAttribution": "id Software, Avalanche Studios",
+			"_type": "Diesel Product About",
+			"publisherAttribution": "Bethesda Softworks",
+			"description": "Ruthless and bloodthirsty gangs roam the open roads and the tyrannical Authority seek to rule with an iron fist. As Walker, the last Ranger of the wasteland and a threat to their power, you have been robbed of your home and left for dead. Now you’ll have to rage for justice and freedom. With ludicrous vehicle combat, super-powered first-person mayhem, and an open world full of emergent madness, you will tear across an unforgiving wasteland battling sadistic gangs to find the tools and tech needed to crush the oppressive rule of The Authority once and for all.\n\n# WELCOME TO THE SHOOTERVERSE\n\nid Software’s shooter pedigree and Avalanche Studios’ open world prowess is dream-team-made-real for RAGE 2. It’s more than a shooter, more than an open world game – it’s a shooterverse.\n\n# THE WASTELAND AWAITS\n\nSeamlessly traverse a vast and varied landscape, from lush jungles and treacherous swamps to sun-scorched deserts in your pursuit of The Authority. The wasteland is massive, and you’ve got the arsenal to fight for every inch.\n\n# PEDAL TO THE METAL\n\nFrom monster trucks to gyrocopters, use an assortment of rugged and wasteland-ready vehicles to speed across the badlands. If you see it, you can drive it. \n\n# THE LAST RANGER\n\nBring the pain using a collection of upgradable weapons, devastating Nanotrite powers, and Overdrive, the ability to push your guns beyond their mechanical limits.\n\n# FACTIONS & FOES\n\nFight against ferocious factions for control of the wasteland, each featuring a rogue’s gallery of madmen, mutants, and monsters hungry for blood.",
+			"shortDescription": "RAGE 2 brings together two studio powerhouses – Avalanche Studios, masters of open world insanity, and id Software, creators of the first-person shooter – to deliver a carnival of carnage where you can go anywhere, shoot anything, and explode everything.",
+			"title": "An asteroid has annihilated 80% of the earth’s population, and humanity’s numbers are dwindling.",
+			"developerLogo": {
+				"_type": "Diesel Image"
+			}
+		},
+		"reqs": [
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "OS",
+				"minimum": "Win7, 8.1, or 10 (64-Bit versions)",
+				"recommended": "Win7, 8.1, or 10 (64-Bit versions)"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Processor",
+				"minimum": "Intel Core i5-3570 or AMD Ryzen 3 1300X",
+				"recommended": "Intel Core i7-4770 or AMD Ryzen 5 1600X"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Memory",
+				"minimum": "8GB",
+				"recommended": "8GB"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Storage",
+				"minimum": "50GB",
+				"recommended": "50GB"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Graphics",
+				"minimum": "Nvidia GTX 780 3GB or AMD R9 280 3GB",
+				"recommended": "Nvidia GTX 1070 8GB or AMD Vega 56 8GB"
+			}
+		]
+	},
+	"wombat": {
+		"about": {},
+		"reqs": []
+	},
+	"40c34bea9cd0460589c867f6a7246342": {
+		"about": {
+			"image": {
+				"src": "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fbatman-arkham-city%2FEGS_WB_Batman_Arkham_City_G1_1920x1080_19_0911-1920x1080-24a7b872daf28b18cfdac0ae92e656964786a0ce.jpg",
+				"_type": "Diesel Image"
+			},
+			"developerAttribution": "Rocksteady Studios",
+			"_type": "Diesel Product About",
+			"publisherAttribution": "Warner Bros.",
+			"description": "Batman: Arkham City builds upon the intense, atmospheric foundation of Batman: Arkham Asylum, sending players flying through the expansive Arkham City - five times larger than the game world in Batman: Arkham Asylum - the new maximum security \"home\" for all of Gotham City's thugs, gangsters and insane criminal masterminds. Featuring an incredible Rogues Gallery of Gotham City's most dangerous criminals including Catwoman, The Joker, The Riddler, Two-Face, Harley Quinn, The Penguin, Mr. Freeze and many others, the game allows players to genuinely experience what it feels like to be The Dark Knight delivering justice on the streets of Gotham City. Includes available DLC\n\n**Batman: Arkham City - Game of the Year Edition includes the following DLC:**\n\n* Catwoman Pack\n* Nightwing Bundle Pack\n* Robin Bundle Pack\n* Harley Quinn’s Revenge\n* Challenge Map Pack\n* Arkham City Skins Pack\n\nBatman: Arkham City - Game of the Year Edition packages new gameplay content, seven maps, three playable characters, and 12 skins beyond the original retail release:\n\n* **Maps:** Wayne Manor, Main Hall, Freight Train, Black Mask, The Joker's Carnival, Iceberg Long, and Batcave\n\n* **Playable Characters:** Catwoman, Robin and Nightwing\n\n* **Skins:** 1970s Batsuit, Year One Batman, The Dark Knight Returns, Earth One Batman, Batman Beyond Batman, Animated Batman, Sinestro Corps Batman, Long Halloween Catwoman, Animated Catwoman, Animated Robin, Red Robin and Animated Nightwing",
+			"shortDescription": "Get Batman: Arkham City and all DLC for one low price with the release of the GOTY Edition!",
+			"title": "Batman Arkham City Game of the Year Edition",
+			"developerLogo": {
+				"_type": "Diesel Image"
+			}
+		},
+		"reqs": [
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "OS",
+				"minimum": "Windows XP, Vista, 7",
+				"recommended": "TBD"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Processor",
+				"minimum": "Intel Core 2 Duo 2.4 GHz or AMD Athlon X2 4800+",
+				"recommended": "TBD"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Memory",
+				"minimum": "2GB RAM",
+				"recommended": "TBD"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Graphics",
+				"minimum": "ATI 3850HD 512 MB or NVIDIA GeForce 8800 GT 512MB",
+				"recommended": "TBD"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "DirectX",
+				"minimum": " 9.0c",
+				"recommended": "TBD"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Storage",
+				"minimum": "17 GB free hard drive space",
+				"recommended": "TBD"
+			}
+		]
+	}
+}

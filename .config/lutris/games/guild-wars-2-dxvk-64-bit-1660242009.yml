@@ -1,0 +1,28 @@
+game:
+  arch: win64
+  exe: drive_c/Program Files/Guild Wars 2/GW2-64.exe
+  prefix: /home/talocha/Games/guild-wars-2
+system:
+  env:
+    __GL_SHADER_DISK_CACHE: '1'
+    __GL_SHADER_DISK_CACHE_PATH: /home/talocha/Games/guild-wars-2
+  pulse_latency: true
+  resolution: 'off'
+  vk_icd: /usr/share/vulkan/icd.d/radeon_icd.x86_64.json:/usr/share/vulkan/icd.d/radeon_icd.i686.json
+wine:
+  Desktop: false
+  battleye: false
+  dgvoodoo2: true
+  dgvoodoo2_version: v2.79.1
+  dxvk: true
+  dxvk_nvapi: true
+  dxvk_nvapi_version: v0.5.4
+  dxvk_version: v1.10.3
+  eac: false
+  esync: true
+  fsr: true
+  fsync: true
+  system_winetricks: false
+  version: lutris-7.2-2-x86_64
+  vkd3d: true
+  vkd3d_version: v2.6

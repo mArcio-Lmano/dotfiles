@@ -1,0 +1,506 @@
+System Info:
+Heroic Version: 2.4.3 Chopper
+Legendary Version:  0.20.28 Dark Energy (hotfix #2)
+OS: Arch KERNEL: 5.19.10-arch1-1 ARCH: x64
+CPU: AMD Ryzen 7 3700X 8-Core Processor @3.6 GOVERNOR: schedutil
+RAM: Total: 15.51 GiB Available: 14.19 GiB
+GRAPHICS: GPU0: Navi 23 [Radeon RX 6600/6600 XT/6600M] VRAM: 1MB DRIVER:  
+PROTOCOL: tty
+
+Game Settings: {
+	"autoInstallDxvk": true,
+	"autoInstallVkd3d": false,
+	"preferSystemLibs": true,
+	"enableFSR": true,
+	"enableFsync": true,
+	"maxSharpness": 5,
+	"nvidiaPrime": false,
+	"enviromentOptions": [],
+	"wrapperOptions": [],
+	"savesPath": "",
+	"showFps": true,
+	"targetExe": "",
+	"useGameMode": false,
+	"language": "",
+	"wineVersion": {
+		"bin": "/home/talocha/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine",
+		"name": "Wine - lutris-7.2-2-x86_64",
+		"type": "wine",
+		"lib": "/home/talocha/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/lib64",
+		"lib32": "/home/talocha/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/lib",
+		"wineserver": "/home/talocha/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wineserver",
+		"wineboot": "/home/talocha/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wineboot"
+	},
+	"winePrefix": "/home/talocha/Games/Heroic/Prefixes/BatmanArkhamCity",
+	"eacRuntime": false,
+	"battlEyeRuntime": false,
+	"gogSaves": []
+}
+
+Game launched at: Tue Sep 27 2022 11:00:21 GMT+0100 (Western European Summer Time)
+
+Launch Command: LD_PRELOAD= WINEPREFIX=/home/talocha/Games/Heroic/Prefixes/BatmanArkhamCity DXVK_HUD=fps WINE_FULLSCREEN_FSR=1 WINE_FULLSCREEN_FSR_STRENGTH=5 WINEFSYNC=1 /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary launch Egret --language en  --wine /home/talocha/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine --wine-prefix /home/talocha/Games/Heroic/Prefixes/BatmanArkhamCity
+
+Game Log:
+[cli] INFO: Logging in...
+[Core] INFO: Trying to re-use existing login session...
+[cli] INFO: Checking for updates...
+[Core] INFO: Getting authentication token...
+[cli] INFO: Launching Egret...
+fsync: up and running.
+
+Legendary update available!
+- New version: 0.20.29 - "Dark Energy (hotfix #3)"
+- Release summary:
+ [!] Adds workaround for Epic CDN issue (403 when downloading manifest)
+ [!] Fixes potential zero division error when verifying large files on fast SSDs
+See full changelog for additional details.
+- Release URL: https://legendary.gl/release/0.20.29
+! This update is recommended as it fixes major issues.
+
+- Download URL: https://legendary.gl/release/download/0.20.29/legendary
+002c:fixme:winediag:LdrInitializeThunk Lutris Wine 7.2 is a testing version containing experimental patches.
+002c:fixme:winediag:LdrInitializeThunk Please don't report bugs about it on winehq.org and use https://github.com/lutris/wine/issues instead.
+0114:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0124:fixme:wbemprox:wbem_locator_ConnectServer authentication not supported
+0124:fixme:wbemprox:wbem_locator_ConnectServer specific locale not supported
+0124:fixme:wbemprox:wbem_locator_ConnectServer unsupported flags
+0114:fixme:wmiutils:path_GetInfo some flags are not implemented
+0114:fixme:wmiutils:path_GetInfo some flags are not implemented
+0114:fixme:wmiutils:path_GetInfo some flags are not implemented
+0114:fixme:wmiutils:status_code_GetErrorCodeText 05D78230, 0x80041017, 0x0000, 0x00000001, 00EFF624
+0114:fixme:font:find_matching_face Untranslated charset 255
+0114:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\usr\\share\\fonts\\nerd-fonts-complete\\TTF\\Noto Sans Condensed Black Nerd Font Complete.ttf"
+0114:fixme:font:find_matching_face Untranslated charset 255
+0114:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\usr\\share\\fonts\\nerd-fonts-complete\\TTF\\Noto Sans Condensed Black Nerd Font Complete Mono.ttf"
+0114:fixme:font:find_matching_face Untranslated charset 255
+0114:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\usr\\share\\fonts\\nerd-fonts-complete\\TTF\\Noto Sans Mono Black Nerd Font Complete.ttf"
+0114:fixme:font:find_matching_face Untranslated charset 255
+0114:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\usr\\share\\fonts\\nerd-fonts-complete\\TTF\\Noto Sans Mono Black Nerd Font Complete Mono.ttf"
+0114:fixme:font:find_matching_face Untranslated charset 255
+0114:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\usr\\share\\fonts\\nerd-fonts-complete\\TTF\\Noto Serif Black Nerd Font Complete.ttf"
+0114:fixme:font:find_matching_face Untranslated charset 255
+0114:fixme:font:get_nearest_charset returning DEFAULT_CHARSET face->fs.fsCsb[0] = 00000000 file = L"\\??\\Z:\\usr\\share\\fonts\\nerd-fonts-complete\\TTF\\Noto Serif Black Nerd Font Complete Mono.ttf"
+0128:fixme:wbemprox:wbem_locator_ConnectServer authentication not supported
+0128:fixme:wbemprox:wbem_locator_ConnectServer specific locale not supported
+0128:fixme:wbemprox:wbem_locator_ConnectServer unsupported flags
+0114:fixme:wbemprox:class_object_Clone 0601D0B0, 00EFE8B0
+012c:fixme:wbemprox:wbem_locator_ConnectServer authentication not supported
+012c:fixme:wbemprox:wbem_locator_ConnectServer specific locale not supported
+012c:fixme:wbemprox:wbem_locator_ConnectServer unsupported flags
+0114:fixme:wbemprox:class_object_Clone 061110B0, 00EFE8B0
+0130:fixme:wbemprox:wbem_locator_ConnectServer authentication not supported
+0130:fixme:wbemprox:wbem_locator_ConnectServer specific locale not supported
+0130:fixme:wbemprox:wbem_locator_ConnectServer unsupported flags
+info:  Game: BmLauncher.exe
+info:  DXVK: v1.10.3
+info:  Built-in extension providers:
+info:    Win32 WSI
+info:    OpenVR
+info:    OpenXR
+info:  OpenVR: could not open registry key, status 2
+info:  OpenVR: Failed to locate module
+info:  Enabled instance extensions:
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:    VK_KHR_win32_surface
+info:  AMD RADV DIMGREY_CAVEFISH:
+info:    Driver: 22.1.7
+info:    Vulkan: 1.3.211
+info:    Memory Heap[0]: 
+info:      Size: 7936 MiB
+info:      Flags: 0x1
+info:      Memory Type[0]: Property Flags = 0x1
+info:      Memory Type[4]: Property Flags = 0xc1
+info:    Memory Heap[1]: 
+info:      Size: 7940 MiB
+info:      Flags: 0x0
+info:      Memory Type[1]: Property Flags = 0x6
+info:      Memory Type[3]: Property Flags = 0xe
+info:      Memory Type[5]: Property Flags = 0xc6
+info:      Memory Type[7]: Property Flags = 0xce
+info:    Memory Heap[2]: 
+info:      Size: 256 MiB
+info:      Flags: 0x1
+info:      Memory Type[2]: Property Flags = 0x7
+info:      Memory Type[6]: Property Flags = 0xc7
+0114:fixme:wbemprox:class_object_Clone 06113C30, 00EFE8B0
+info:  Game: BmLauncher.exe
+info:  DXVK: v1.10.3
+info:  Built-in extension providers:
+info:    Win32 WSI
+info:    OpenVR
+info:    OpenXR
+info:  OpenVR: could not open registry key, status 2
+info:  OpenVR: Failed to locate module
+info:  Enabled instance extensions:
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:    VK_KHR_win32_surface
+info:  D3D9: VK_FORMAT_D24_UNORM_S8_UINT -> VK_FORMAT_D32_SFLOAT_S8_UINT
+info:  AMD RADV DIMGREY_CAVEFISH:
+info:    Driver: 22.1.7
+info:    Vulkan: 1.3.211
+info:    Memory Heap[0]: 
+info:      Size: 7936 MiB
+info:      Flags: 0x1
+info:      Memory Type[0]: Property Flags = 0x1
+info:      Memory Type[4]: Property Flags = 0xc1
+info:    Memory Heap[1]: 
+info:      Size: 7940 MiB
+info:      Flags: 0x0
+info:      Memory Type[1]: Property Flags = 0x6
+info:      Memory Type[3]: Property Flags = 0xe
+info:      Memory Type[5]: Property Flags = 0xc6
+info:      Memory Type[7]: Property Flags = 0xce
+info:    Memory Heap[2]: 
+info:      Size: 256 MiB
+info:      Flags: 0x1
+info:      Memory Type[2]: Property Flags = 0x7
+info:      Memory Type[6]: Property Flags = 0xc7
+info:  Process set as DPI aware
+0114:fixme:nls:GetFileMUIPath stub: 0x10, L"C:\\windows\\system32\\tzres.dll", (null), 00EFE128, 010A18F0, 00EFE12C, 00EFE120
+0114:fixme:nls:GetFileMUIPath stub: 0x10, L"C:\\windows\\system32\\tzres.dll", (null), 00EFE128, 010A18F0, 00EFE12C, 00EFE120
+0114:fixme:nls:GetFileMUIPath stub: 0x10, L"C:\\windows\\system32\\tzres.dll", (null), 00EFE128, 010A18F0, 00EFE12C, 00EFE120
+0084:fixme:imm:ImeSetActiveContext (0x4403d0, 0): stub
+0084:fixme:imm:ImmReleaseContext (0000000000010020, 00000000004403D0): stub
+0114:fixme:imm:ImeSetActiveContext (0x11b0c30, 1): stub
+0114:fixme:imm:ImmReleaseContext (00010086, 011B0C30): stub
+0114:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0114:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0114:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0114:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0114:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0114:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0114:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0114:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0114:fixme:oleacc:LresultFromObject unsupported wParam = ffffffff
+0114:fixme:exec:SHELL_execute flags ignored: 0x00004100
+0114:err:exec:SHELL_ExecuteW cannot set directory L"Win32"
+0114:fixme:msvcrt:__clean_type_info_names_internal (073449E0) stub
+0114:fixme:msvcrt:__clean_type_info_names_internal (7842E684) stub
+0168:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0168:fixme:gameux:GameExplorerImpl_VerifyAccess (02016F70, L"Z:\\home\\talocha\\Games\\Heroic\\BatmanArkhamCity\\Binaries\\Win32\\BatmanAC.exe", 01EAF538)
+0168:fixme:imm:ImeSetActiveContext (0x2200030, 1): stub
+0168:fixme:imm:ImmReleaseContext (0005006A, 02200030): stub
+0168:fixme:system:NtUserSystemParametersInfo Unimplemented action: 59 (SPI_SETSTICKYKEYS)
+0168:fixme:system:NtUserSystemParametersInfo Unimplemented action: 53 (SPI_SETTOGGLEKEYS)
+0168:fixme:system:NtUserSystemParametersInfo Unimplemented action: 51 (SPI_SETFILTERKEYS)
+0168:fixme:wtsapi:WTSRegisterSessionNotification Stub 0005006A 0x00000000
+01c4:err:ole:CoUninitialize Mismatched CoUninitialize
+wine: Unhandled stack overflow at address 000000007B07EE1B (thread 0100), starting debugger...
+0260:fixme:imm:ImeSetActiveContext (0x4503d0, 1): stub
+0260:fixme:imm:ImmReleaseContext (00000000000100C8, 00000000004503D0): stub
+026c:fixme:imm:ImeSetActiveContext (0x4403d0, 0): stub
+026c:fixme:imm:ImmReleaseContext (0000000000050080, 00000000004403D0): stub
+0x55d375aa96f0:1: fsync idx=81134
+0x55d375a47280:1: fsync idx=81132
+0x55d375aa9ac0:1: fsync idx=81129
+0x55d375a03810:1: fsync idx=81127
+0x55d375aa9c80:1: fsync idx=81124
+0x55d375aa9680:1: fsync idx=81122
+0x55d375aa9ba0:1: fsync idx=81119
+0x55d375a9b3c0:1: fsync idx=81117
+0x55d3759fc2b0:1: fsync idx=81114
+0x55d375a00ef0:1: fsync idx=81112
+0x55d375a14760:1: fsync idx=81109
+0x55d375a47520:1: fsync idx=81107
+0x55d375a02140:1: fsync idx=81104
+0x55d375a473d0:1: fsync idx=81102
+0x55d375a47210:1: fsync idx=81099
+0x55d375a3d920:1: fsync idx=81097
+0x55d375a47360:1: fsync idx=81093
+0x55d375a14610:1: fsync idx=81091
+0x55d375a492b0:1: fsync idx=81088
+0x55d375a40ba0:1: fsync idx=81086
+0x55d375a47f20:1: fsync idx=81083
+0x55d3759c3e00:1: fsync idx=81081
+0x55d375a65bc0:1: fsync idx=81077
+0x55d375aa7ea0:1: fsync idx=81075
+0x55d375a83ad0:1: fsync idx=81042
+0x55d375a6f8d0:1: fsync idx=81040
+0x55d375a73670:1: fsync idx=81038
+0x55d375a65ee0:1: fsync idx=81024
+0x55d375a222c0:1: fsync idx=81022
+0x55d375aaf1f0:1: Fd unix_fd=684 user=0x55d375aaed30 options=00000000
+0x55d375aaf0d0:1: Fd unix_fd=683 user=0x55d375aaed30 options=00000000
+0x55d375aaefb0:1: Fd unix_fd=682 user=0x55d375aaed30 options=00000000
+0x55d375aaed30:3: Thread id=02c0 unix pid=12016 unix tid=167065 state=0
+0x55d375a47f90:1: fsync idx=81015
+0x55d375a4f060:1: fsync idx=81014
+0x55d375aaec10:1: Fd unix_fd=681 user=0x55d375aae870 options=00000000
+0x55d375aaeaf0:1: Fd unix_fd=680 user=0x55d375aae870 options=00000000
+0x55d375a00e80:1: fsync idx=81011
+0x55d375aabc80:1: Fd unix_fd=614 user=0x55d375a2c890 options=00000000
+0x55d3759ac600:1: Fd unix_fd=613 user=0x55d375a2c890 options=00000000
+0x55d3759a8330:1: Fd unix_fd=679 user=0x55d375aae870 options=00000000
+0x55d375aae870:3: Thread id=02bc unix pid=12016 unix tid=167064 state=0
+0x55d3759a1b30:1: Fd unix_fd=612 user=0x55d375a2c890 options=00000000
+0x55d375a2c890:3: Thread id=02b8 unix pid=12016 unix tid=167063 state=0
+0x55d375a56d70:1: Fd unix_fd=211 user=0x55d3759f96b0 options=00000000
+0x55d375a56e90:1: Fd unix_fd=206 user=0x55d3759f96b0 options=00000000
+0x55d375a146f0:1: fsync idx=81000
+0x55d375a56fb0:1: Fd unix_fd=204 user=0x55d3759f96b0 options=00000000
+0x55d3759f96b0:3: Thread id=02b4 unix pid=12016 unix tid=167062 state=0
+0x55d375a47440:1: fsync idx=80996
+0x55d375aa9c10:1: fsync idx=80995
+0x55d375aa9a50:1: fsync idx=80994
+0x55d375a9b610:1: fsync idx=80993
+0x55d375aa99e0:1: fsync idx=80992
+0x55d375aa95a0:1: fsync idx=80991
+0x55d375aa9b30:1: fsync idx=80990
+0x55d375aa9970:1: fsync idx=80989
+0x55d375aa7720:1: File fd=0x55d375aab7e0
+0x55d375aaba80:1: Inode device=0x55d374ccf760 ino=3a1e5a
+0x55d375aab7e0:1: Fd unix_fd=678 user=0x55d375aa7720 options=00000060 inode=0x55d375aaba80 unlink=0
+0x55d375aa7b80:1: File fd=0x55d375aa5450
+0x55d375aa5310:1: Inode device=0x55d374ccf760 ino=3a1e71
+0x55d375aa5450:1: Fd unix_fd=677 user=0x55d375aa7b80 options=00000060 inode=0x55d375aa5310 unlink=0
+0x55d375aa2520:1: File fd=0x55d375aa2640
+0x55d375aa53b0:1: Inode device=0x55d374ccf760 ino=3a21b7
+0x55d375aa2640:1: Fd unix_fd=676 user=0x55d375aa2520 options=00000060 inode=0x55d375aa53b0 unlink=0
+0x55d375a9af80:1: File fd=0x55d375a9b6f0
+0x55d375a9b4d0:1: Inode device=0x55d374ccf760 ino=3a1b83
+0x55d375a9b6f0:1: Fd unix_fd=675 user=0x55d375a9af80 options=00000060 inode=0x55d375a9b4d0 unlink=0
+0x55d375a06440:1: fsync idx=65734
+0x55d375a736e0:1: File fd=0x55d375a9b030
+0x55d375a9b570:1: Inode device=0x55d374ccf760 ino=3a21b0
+0x55d375a9b030:1: Fd unix_fd=674 user=0x55d375a736e0 options=00000060 inode=0x55d375a9b570 unlink=0
+0x55d375a93560:1: File fd=0x55d375a935e0
+0x55d375a9aee0:1: Inode device=0x55d374ccf760 ino=3a2174
+0x55d375a935e0:1: Fd unix_fd=673 user=0x55d375a93560 options=00000060 inode=0x55d375a9aee0 unlink=0
+0x55d375a92fb0:1: File fd=0x55d375a930d0
+0x55d375a934c0:1: Inode device=0x55d374ccf760 ino=3a2120
+0x55d375a930d0:1: Fd unix_fd=672 user=0x55d375a92fb0 options=00000060 inode=0x55d375a934c0 unlink=0
+0x55d375a92a60:1: File fd=0x55d375a92ae0
+0x55d375a92db0:1: Inode device=0x55d374ccf760 ino=3a2121
+0x55d375a92ae0:1: Fd unix_fd=671 user=0x55d375a92a60 options=00000060 inode=0x55d375a92db0 unlink=0
+0x55d375a92510:1: File fd=0x55d375a92590
+0x55d375a92860:1: Inode device=0x55d374ccf760 ino=3a2122
+0x55d375a92590:1: Fd unix_fd=670 user=0x55d375a92510 options=00000060 inode=0x55d375a92860 unlink=0
+0x55d375a92060:1: File fd=0x55d375a920e0
+0x55d375a91f20:1: Inode device=0x55d374ccf760 ino=3a2123
+0x55d375a920e0:1: Fd unix_fd=669 user=0x55d375a92060 options=00000060 inode=0x55d375a91f20 unlink=0
+0x55d375a91b70:1: File fd=0x55d375a91c90
+0x55d375a91fc0:1: Inode device=0x55d374ccf760 ino=3a2124
+0x55d375a91c90:1: Fd unix_fd=668 user=0x55d375a91b70 options=00000060 inode=0x55d375a91fc0 unlink=0
+0x55d375a91650:1: File fd=0x55d375a916d0
+0x55d375a91970:1: Inode device=0x55d374ccf760 ino=3a2125
+0x55d375a916d0:1: Fd unix_fd=667 user=0x55d375a91650 options=00000060 inode=0x55d375a91970 unlink=0
+0x55d375a91130:1: File fd=0x55d375a911b0
+0x55d375a91450:1: Inode device=0x55d374ccf760 ino=3a2126
+0x55d375a911b0:1: Fd unix_fd=666 user=0x55d375a91130 options=00000060 inode=0x55d375a91450 unlink=0
+0x55d375a90cd0:1: File fd=0x55d375a90e00
+0x55d375a90b90:1: Inode device=0x55d374ccf760 ino=3a2127
+0x55d375a90e00:1: Fd unix_fd=665 user=0x55d375a90cd0 options=00000060 inode=0x55d375a90b90 unlink=0
+0x55d375a8d5f0:1: File fd=0x55d375a8d7c0
+0x55d375a90c30:1: Inode device=0x55d374ccf760 ino=3a2112
+0x55d375a8d7c0:1: Fd unix_fd=664 user=0x55d375a8d5f0 options=00000060 inode=0x55d375a90c30 unlink=0
+0x55d375a8cf00:1: File fd=0x55d375a8d030
+0x55d375a8d550:1: Inode device=0x55d374ccf760 ino=3a1e75
+0x55d375a8d030:1: Fd unix_fd=663 user=0x55d375a8cf00 options=00000060 inode=0x55d375a8d550 unlink=0
+0x55d375a8ca30:1: File fd=0x55d375a8cab0
+0x55d375a8ce60:1: Inode device=0x55d374ccf760 ino=3a1e72
+0x55d375a8cab0:1: Fd unix_fd=662 user=0x55d375a8ca30 options=00000060 inode=0x55d375a8ce60 unlink=0
+0x55d375a8c570:1: File fd=0x55d375a8c690
+0x55d375a8c990:1: Inode device=0x55d374ccf760 ino=3a1fca
+0x55d375a8c690:1: Fd unix_fd=661 user=0x55d375a8c570 options=00000060 inode=0x55d375a8c990 unlink=0
+0x55d375a8c040:1: File fd=0x55d375a8c170
+0x55d375a8bf00:1: Inode device=0x55d374ccf760 ino=3a1e84
+0x55d375a8c170:1: Fd unix_fd=660 user=0x55d375a8c040 options=00000060 inode=0x55d375a8bf00 unlink=0
+0x55d375a8baa0:1: File fd=0x55d375a8bca0
+0x55d375a8bfa0:1: Inode device=0x55d374ccf760 ino=3a1e60
+0x55d375a8bca0:1: Fd unix_fd=659 user=0x55d375a8baa0 options=00000060 inode=0x55d375a8bfa0 unlink=0
+0x55d375a8b5e0:1: File fd=0x55d375a8b700
+0x55d375a8ba00:1: Inode device=0x55d374ccf760 ino=3a1e5b
+0x55d375a8b700:1: Fd unix_fd=658 user=0x55d375a8b5e0 options=00000060 inode=0x55d375a8ba00 unlink=0
+0x55d375a8b0c0:1: File fd=0x55d375a8b140
+0x55d375a8b3e0:1: Inode device=0x55d374ccf760 ino=3a1eb3
+0x55d375a8b140:1: Fd unix_fd=657 user=0x55d375a8b0c0 options=00000060 inode=0x55d375a8b3e0 unlink=0
+0x55d375a8aba0:1: File fd=0x55d375a8ac20
+0x55d375a8aec0:1: Inode device=0x55d374ccf760 ino=3a1ff9
+0x55d375a8ac20:1: Fd unix_fd=656 user=0x55d375a8aba0 options=00000060 inode=0x55d375a8aec0 unlink=0
+0x55d375a8a5e0:1: File fd=0x55d375a8a700
+0x55d375a8a660:1: Inode device=0x55d374ccf760 ino=3a2020
+0x55d375a8a700:1: Fd unix_fd=655 user=0x55d375a8a5e0 options=00000060 inode=0x55d375a8a660 unlink=0
+0x55d375a89730:1: File fd=0x55d375a89920
+0x55d375a895f0:1: Inode device=0x55d374ccf760 ino=3a2023
+0x55d375a89920:1: Fd unix_fd=654 user=0x55d375a89730 options=00000060 inode=0x55d375a895f0 unlink=0
+0x55d375a89260:1: File fd=0x55d375a892e0
+0x55d375a89690:1: Inode device=0x55d374ccf760 ino=3a1fbe
+0x55d375a892e0:1: Fd unix_fd=653 user=0x55d375a89260 options=00000060 inode=0x55d375a89690 unlink=0
+0x55d375a88da0:1: File fd=0x55d375a88ec0
+0x55d375a891c0:1: Inode device=0x55d374ccf760 ino=3a1e13
+0x55d375a88ec0:1: Fd unix_fd=652 user=0x55d375a88da0 options=00000060 inode=0x55d375a891c0 unlink=0
+0x55d375a88640:1: File fd=0x55d375a886c0
+0x55d375a88ba0:1: Inode device=0x55d374ccf760 ino=3a1e1b
+0x55d375a886c0:1: Fd unix_fd=651 user=0x55d375a88640 options=00000060 inode=0x55d375a88ba0 unlink=0
+0x55d375a88130:1: File fd=0x55d375a881b0
+0x55d375a88440:1: Inode device=0x55d374ccf760 ino=3a1fcd
+0x55d375a881b0:1: Fd unix_fd=650 user=0x55d375a88130 options=00000060 inode=0x55d375a88440 unlink=0
+0x55d375a87ca0:1: File fd=0x55d375a87d20
+0x55d375a87b60:1: Inode device=0x55d374ccf760 ino=3a1fce
+0x55d375a87d20:1: Fd unix_fd=649 user=0x55d375a87ca0 options=00000060 inode=0x55d375a87b60 unlink=0
+0x55d375a877e0:1: File fd=0x55d375a87900
+0x55d375a87c00:1: Inode device=0x55d374ccf760 ino=3a1fc1
+0x55d375a87900:1: Fd unix_fd=648 user=0x55d375a877e0 options=00000060 inode=0x55d375a87c00 unlink=0
+0x55d375a87390:1: File fd=0x55d375a87410
+0x55d375a875e0:1: Inode device=0x55d374ccf760 ino=3a1fc7
+0x55d375a87410:1: Fd unix_fd=647 user=0x55d375a87390 options=00000060 inode=0x55d375a875e0 unlink=0
+0x55d375a86f30:1: File fd=0x55d375a87060
+0x55d375a86df0:1: Inode device=0x55d374ccf760 ino=3a1fc9
+0x55d375a87060:1: Fd unix_fd=646 user=0x55d375a86f30 options=00000060 inode=0x55d375a86df0 unlink=0
+0x55d375a83ee0:1: File fd=0x55d375a83f60
+0x55d375a86e90:1: Inode device=0x55d374ccf760 ino=3a1e0e
+0x55d375a83f60:1: Fd unix_fd=645 user=0x55d375a83ee0 options=00000060 inode=0x55d375a86e90 unlink=0
+0x55d375a837b0:1: File fd=0x55d375a83be0
+0x55d375a83e40:1: Inode device=0x55d374ccf760 ino=3a217c
+0x55d375a83be0:1: Fd unix_fd=644 user=0x55d375a837b0 options=00000060 inode=0x55d375a83e40 unlink=0
+0x55d375a83210:1: File fd=0x55d375a833e0
+0x55d375a835b0:1: Inode device=0x55d374ccf760 ino=3a243b
+0x55d375a833e0:1: Fd unix_fd=643 user=0x55d375a83210 options=00000060 inode=0x55d375a835b0 unlink=0
+0x55d375a82d00:1: File fd=0x55d375a82d80
+0x55d375a82bc0:1: Inode device=0x55d374ccf760 ino=3a1cef
+0x55d375a82d80:1: Fd unix_fd=642 user=0x55d375a82d00 options=00000060 inode=0x55d375a82bc0 unlink=0
+0x55d375a828c0:1: File fd=0x55d375a82940
+0x55d375a82c60:1: Inode device=0x55d374ccf760 ino=3a2181
+0x55d375a82940:1: Fd unix_fd=641 user=0x55d375a828c0 options=00000060 inode=0x55d375a82c60 unlink=0
+0x55d375a405f0:1: File fd=0x55d375a82460
+0x55d375a82820:1: Inode device=0x55d374ccf760 ino=3a2191
+0x55d375a82460:1: Fd unix_fd=640 user=0x55d375a405f0 options=00000060 inode=0x55d375a82820 unlink=0
+0x55d375a7a250:1: File fd=0x55d375a7a2d0
+0x55d375a823c0:1: Inode device=0x55d374ccf760 ino=3a21ac
+0x55d375a7a2d0:1: Fd unix_fd=639 user=0x55d375a7a250 options=00000060 inode=0x55d375a823c0 unlink=0
+0x55d375a79bd0:1: File fd=0x55d375a79c50
+0x55d375a7a050:1: Inode device=0x55d374ccf760 ino=3a2434
+0x55d375a79c50:1: Fd unix_fd=638 user=0x55d375a79bd0 options=00000060 inode=0x55d375a7a050 unlink=0
+0x55d375a78fd0:1: File fd=0x55d375a79050
+0x55d375a792f0:1: Inode device=0x55d374ccf760 ino=3a2436
+0x55d375a79050:1: Fd unix_fd=637 user=0x55d375a78fd0 options=00000060 inode=0x55d375a792f0 unlink=0
+0x55d375a78910:1: File fd=0x55d375a78990
+0x55d375a787d0:1: Inode device=0x55d374ccf760 ino=3a162d
+0x55d375a78990:1: Fd unix_fd=636 user=0x55d375a78910 options=00000060 inode=0x55d375a787d0 unlink=0
+0x55d375a78390:1: File fd=0x55d375a784b0
+0x55d375a78870:1: Inode device=0x55d374ccf760 ino=3a18a1
+0x55d375a784b0:1: Fd unix_fd=635 user=0x55d375a78390 options=00000060 inode=0x55d375a78870 unlink=0
+0x55d375a77e70:1: File fd=0x55d375a77ef0
+0x55d375a78190:1: Inode device=0x55d374ccf760 ino=3a18a0
+0x55d375a77ef0:1: Fd unix_fd=634 user=0x55d375a77e70 options=00000060 inode=0x55d375a78190 unlink=0
+0x55d375a77940:1: File fd=0x55d375a779c0
+0x55d375a77c70:1: Inode device=0x55d374ccf760 ino=3a189e
+0x55d375a779c0:1: Fd unix_fd=633 user=0x55d375a77940 options=00000060 inode=0x55d375a77c70 unlink=0
+0x55d375a77420:1: File fd=0x55d375a774a0
+0x55d375a77740:1: Inode device=0x55d374ccf760 ino=3a189d
+0x55d375a774a0:1: Fd unix_fd=632 user=0x55d375a77420 options=00000060 inode=0x55d375a77740 unlink=0
+0x55d375a77070:1: File fd=0x55d375a770f0
+0x55d375a76f30:1: Inode device=0x55d374ccf760 ino=3a189c
+0x55d375a770f0:1: Fd unix_fd=631 user=0x55d375a77070 options=00000060 inode=0x55d375a76f30 unlink=0
+0x55d375a76b90:1: File fd=0x55d375a76c10
+0x55d375a76fd0:1: Inode device=0x55d374ccf760 ino=3a1897
+0x55d375a76c10:1: Fd unix_fd=630 user=0x55d375a76b90 options=00000060 inode=0x55d375a76fd0 unlink=0
+0x55d375a766b0:1: File fd=0x55d375a76730
+0x55d375a76af0:1: Inode device=0x55d374ccf760 ino=3a1898
+0x55d375a76730:1: Fd unix_fd=629 user=0x55d375a766b0 options=00000060 inode=0x55d375a76af0 unlink=0
+0x55d375a76130:1: File fd=0x55d375a76250
+0x55d375a76610:1: Inode device=0x55d374ccf760 ino=3a1899
+0x55d375a76250:1: Fd unix_fd=628 user=0x55d375a76130 options=00000060 inode=0x55d375a76610 unlink=0
+0x55d375a75d80:1: File fd=0x55d375a75e00
+0x55d375a75c40:1: Inode device=0x55d374ccf760 ino=3a18bc
+0x55d375a75e00:1: Fd unix_fd=627 user=0x55d375a75d80 options=00000060 inode=0x55d375a75c40 unlink=0
+0x55d375a75800:1: File fd=0x55d375a75920
+0x55d375a75ce0:1: Inode device=0x55d374ccf760 ino=3a18bd
+0x55d375a75920:1: Fd unix_fd=626 user=0x55d375a75800 options=00000060 inode=0x55d375a75ce0 unlink=0
+0x55d375a75390:1: File fd=0x55d375a75410
+0x55d375a75250:1: Inode device=0x55d374ccf760 ino=3a18be
+0x55d375a75410:1: Fd unix_fd=625 user=0x55d375a75390 options=00000060 inode=0x55d375a75250 unlink=0
+0x55d375a74eb0:1: File fd=0x55d375a74fd0
+0x55d375a752f0:1: Inode device=0x55d374ccf760 ino=3a217f
+0x55d375a74fd0:1: Fd unix_fd=624 user=0x55d375a74eb0 options=00000060 inode=0x55d375a752f0 unlink=0
+0x55d375a74a50:1: File fd=0x55d375a74b80
+0x55d375a74910:1: Inode device=0x55d374ccf760 ino=3a1912
+0x55d375a74b80:1: Fd unix_fd=623 user=0x55d375a74a50 options=00000060 inode=0x55d375a74910 unlink=0
+0x55d375a6fb20:1: File fd=0x55d375a6fba0
+0x55d375a749b0:1: Inode device=0x55d374ccf760 ino=3a1896
+0x55d375a6fba0:1: Fd unix_fd=622 user=0x55d375a6fb20 options=00000060 inode=0x55d375a749b0 unlink=0
+0x55d375a6c820:1: File fd=0x55d375a6c8a0
+0x55d375a6fa80:1: Inode device=0x55d374ccf760 ino=3a218d
+0x55d375a6c8a0:1: Fd unix_fd=621 user=0x55d375a6c820 options=00000060 inode=0x55d375a6fa80 unlink=0
+0x55d375a661d0:1: File fd=0x55d3759fc430
+0x55d375a66090:1: Inode device=0x55d374ccf760 ino=3a1b86
+0x55d3759fc430:1: Fd unix_fd=620 user=0x55d375a661d0 options=00000060 inode=0x55d375a66090 unlink=0
+0x55d375a657e0:1: File fd=0x55d375a65860
+0x55d375a66130:1: Inode device=0x55d374ccf760 ino=3a17cf
+0x55d375a65860:1: Fd unix_fd=619 user=0x55d375a657e0 options=00000060 inode=0x55d375a66130 unlink=0
+0x55d375a65120:1: File fd=0x55d375a651a0
+0x55d375a65740:1: Inode device=0x55d374ccf760 ino=3a21b2
+0x55d375a651a0:1: Fd unix_fd=618 user=0x55d375a65120 options=00000060 inode=0x55d375a65740 unlink=0
+0x55d375a57b10:1: File fd=0x55d375a57940
+0x55d375a57750:1: Inode device=0x55d374ccf760 ino=3a1b85
+0x55d375a57940:1: Fd unix_fd=617 user=0x55d375a57b10 options=00000060 inode=0x55d375a57750 unlink=0
+0x55d375a57470:1: File fd=0x55d375a574f0
+0x55d375a577f0:1: Inode device=0x55d374ccf760 ino=3a1b02
+0x55d375a574f0:1: Fd unix_fd=616 user=0x55d375a57470 options=00000060 inode=0x55d375a577f0 unlink=0
+0x55d375a56730:1: File fd=0x55d375a570d0
+0x55d375a573d0:1: Inode device=0x55d374ccf760 ino=3a1afb
+0x55d375a570d0:1: Fd unix_fd=615 user=0x55d375a56730 options=00000060 inode=0x55d375a573d0 unlink=0
+0x55d375a56c50:1: Fd unix_fd=611 user=0x55d375992150 options=00000000
+0x55d375a56b30:1: Fd unix_fd=610 user=0x55d375992150 options=00000000
+0x55d375a56a10:1: Fd unix_fd=609 user=0x55d375992150 options=00000000
+0x55d375992150:3: Thread id=02ac unix pid=12016 unix tid=48915 state=0
+0x55d375a2cca0:1: Fd unix_fd=243 user=0x55d375a32170 options=00000000
+0x55d375a2f160:1: Fd unix_fd=242 user=0x55d375a32170 options=00000000
+0x55d375a3ed10:1: Fd unix_fd=241 user=0x55d375a32170 options=00000000
+0x55d375a32170:3: Thread id=02a8 unix pid=12016 unix tid=48914 state=0
+0x55d375a47130:1: fsync idx=27464
+0x55d375a1d580:1: File fd=0x55d375a520e0
+0x55d375a56690:1: Inode device=0x55d374ccf760 ino=3a21ae
+0x55d375a520e0:1: Fd unix_fd=608 user=0x55d375a1d580 options=00000060 inode=0x55d375a56690 unlink=0
+0x55d375a1d450:1: File fd=0x55d375a51bc0
+0x55d375a1d310:1: Inode device=0x55d374ccf760 ino=3a1fb9
+0x55d375a51bc0:1: Fd unix_fd=607 user=0x55d375a1d450 options=00000060 inode=0x55d375a1d310 unlink=0
+0x55d375a1cf40:1: File fd=0x55d375a1cfc0
+0x55d375a1d3b0:1: Inode device=0x55d374ccf760 ino=3a1fba
+0x55d375a1cfc0:1: Fd unix_fd=606 user=0x55d375a1cf40 options=00000060 inode=0x55d375a1d3b0 unlink=0
+0x55d375a1cad0:1: File fd=0x55d375a1cb50
+0x55d375a1cea0:1: Inode device=0x55d374ccf760 ino=3a21a9
+0x55d375a1cb50:1: Fd unix_fd=605 user=0x55d375a1cad0 options=00000060 inode=0x55d375a1cea0 unlink=0
+0x55d375a1c5c0:1: File fd=0x55d375a1c640
+0x55d375a1ca30:1: Inode device=0x55d374ccf760 ino=3a1fb2
+0x55d375a1c640:1: Fd unix_fd=604 user=0x55d375a1c5c0 options=00000060 inode=0x55d375a1ca30 unlink=0
+0x55d375a1bf50:1: File fd=0x55d375a1c1f0
+0x55d375a1c520:1: Inode device=0x55d374ccf760 ino=3a1fac
+0x55d375a1c1f0:1: Fd unix_fd=603 user=0x55d375a1bf50 options=00000060 inode=0x55d375a1c520 unlink=0
+0x55d375a1b990:1: File fd=0x55d375a1bb50
+0x55d375a1b850:1: Inode device=0x55d374ccf760 ino=3a1e69
+0x55d375a1bb50:1: Fd unix_fd=602 user=0x55d375a1b990 options=00000060 inode=0x55d375a1b850 unlink=0
+0x55d375a1b480:1: File fd=0x55d375a1b500
+0x55d375a1b8f0:1: Inode device=0x55d374ccf760 ino=3a1e00
+0x55d375a1b500:1: Fd unix_fd=601 user=0x55d375a1b480 options=00000060 inode=0x55d375a1b8f0 unlink=0
+0x55d375a1af90:1: File fd=0x55d375a1b0b0
+0x55d375a1b3e0:1: Inode device=0x55d374ccf760 ino=3a1dfa
+0x55d375a1b0b0:1: Fd unix_fd=600 user=0x55d375a1af90 options=00000060 inode=0x55d375a1b3e0 unlink=0
+0x55d375a1ab00:1: File fd=0x55d375a1ac30
+0x55d375a1a9c0:1: Inode device=0x55d374ccf760 ino=3a1dfc
+0x55d375a1ac30:1: Fd unix_fd=599 user=0x55d375a1ab00 options=00000060 inode=0x55d375a1a9c0 unlink=0
+0x55d375a1a6b0:1: File fd=0x55d375a1a730
+0x55d375a1aa60:1: Inode device=0x55d374ccf760 ino=3a1df0
+0x55d375a1a730:1: Fd unix_fd=598 user=0x55d375a1a6b0 options=00000060 inode=0x55d375a1aa60 unlink=0
+0x55d375a1a100:1: File fd=0x55d375a1a2e0
+0x55d375a1a610:1: Inode device=0x55d374ccf760 ino=3a1de8
+0x55d375a1a2e0:1: Fd unix_fd=597 user=0x55d375a1a100 options=00000060 inode=0x55d375a1a610 unlink=0
+0x55d375a19860:1: File fd=0x55d375a19b70
+0x55d375a19720:1: Inode device=0x55d374ccf760 ino=3a1de9
+0x55d375a19b70:1: Fd unix_fd=596 user=0x55d375a19860 options=00000060 inode=0x55d375a19720 unlink=0
+0x55d375a19370:1: File fd=0x55d375a19490
+0x55d375a197c0:1: Inode device=0x55d374ccf760 ino=3a1ddd
+0x55d375a19490:1: Fd unix_fd=595 user=0x55d375a19370 options=00000060 inode=0x55d375a197c0 unlink=0
+0x55d375a18cc0:1: File fd=0x55d375a18d40
+0x55d375a19170:1: Inode device=0x55d374ccf760 ino=3a1e7b
+0x55d375a18d40:1: Fd unix_fd=594 user=0x55d375a18cc0 options=00000060 inode=0x55d375a19170 unlink=0
+0x55d375a18370:1: File fd=0x55d375a183f0
+0x55d375a188d0:1: Inode device=0x55d374ccf760 ino=3a1e12
+0x55d375a183f0:1: Fd unix_fd=593 user=0x55d375a18370 options=00000060 inode=0x55d375a188d0 unlink=0
+0x55d375a17c00:1: File fd=0x55d375a17c80
+0x55d375a18170:1: Inode device=0x55d374ccf760 ino=3a1fbd
+0x55d375a17c80:1: Fd unix_fd=592 user=0x55d375a17c00 options=00000060 inode=0x55d375a18170 unlink=0
+0x55d375a17820:1: File fd=0x55d375a178a0

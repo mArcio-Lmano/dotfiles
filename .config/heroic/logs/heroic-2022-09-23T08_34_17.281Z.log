@@ -1,0 +1,49 @@
+(09:34:17) INFO:    [Legendary]:       Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary --version
+(09:34:17) INFO:    [Legendary]:       Legendary location: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary
+(09:34:17) INFO:    [Gog]:             GOGDL location: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl
+(09:34:17) INFO:    [Backend]:         
+
+Heroic Version: 2.4.3 Chopper
+Legendary Version:  0.20.28 Dark Energy (hotfix #2)
+OS: Arch KERNEL: 5.19.10-arch1-1 ARCH: x64
+CPU: AMD Ryzen 7 3700X 8-Core Processor @3.6 GOVERNOR: schedutil
+RAM: Total: 15.51 GiB Available: 12.85 GiB
+GRAPHICS: GPU0: Navi 23 [Radeon RX 6600/6600 XT/6600M] VRAM: 1MB DRIVER:  
+PROTOCOL: tty
+
+(09:34:18) WARNING: [Backend]:         Failed to register protocol with OS.
+(09:34:18) INFO:    [Backend]:         AreWeAntiCheatYet data downloaded
+(09:34:18) INFO:    [Backend]:         Checking for new Heroic Updates
+(09:34:18) INFO:    [Frontend]:        Refreshing Library
+(09:34:18) INFO:    [Legendary]:       Refreshing library...
+(09:34:18) INFO:    [Legendary]:       Refreshing Epic Games...
+(09:34:19) INFO:    [Legendary]:       Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary list
+(09:34:20) INFO:    [Backend]:         Launching Rage 2 (ad3d0f08dd0841d8a1ba77d94ded4773)
+(09:34:20) INFO:    [Backend]:         Preventing display from sleep
+(09:34:20) INFO:    [Legendary]:       Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary --version
+(09:34:20) INFO:    [Backend]:         Downloaded Winetricks
+(09:34:21) DEBUG:   [Legendary]:       Running Wine command: "/home/talocha/.config/heroic/tools/wine/Wine-lutris-wine-7.2-2/bin/wine" wineboot --init
+(09:34:21) INFO:    [Legendary]:       Updating game list
+(09:34:22) INFO:    [Legendary]:       Game List Updated
+(09:34:22) INFO:    [Legendary]:       Checking for game updates.
+(09:34:22) INFO:    [Legendary]:       Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary list-installed --check-updates --tsv
+(09:34:23) INFO:    [Legendary]:       Found 0 game(s) to update
+(09:34:23) INFO:    [Gog]:             Found 0 game(s) to update
+(09:34:23) INFO:    [Frontend]:        Force Update
+(09:34:26) DEBUG:   [Legendary]:       Ran Wine command: "/home/talocha/.config/heroic/tools/wine/Wine-lutris-wine-7.2-2/bin/wine" wineboot --init
+(09:34:26) INFO:    [Legendary]:       Launching Rage 2: LD_PRELOAD= WINEPREFIX=/home/talocha/Games/Heroic/Prefixes/Rage2 LD_LIBRARY_PATH=/home/talocha/.config/heroic/tools/wine/Wine-lutris-wine-7.2-2/lib:/home/talocha/.config/heroic/tools/wine/Wine-lutris-wine-7.2-2/lib64: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary launch ad3d0f08dd0841d8a1ba77d94ded4773 --language en --wine /home/talocha/.config/heroic/tools/wine/Wine-lutris-wine-7.2-2/bin/wine --wine-prefix /home/talocha/Games/Heroic/Prefixes/Rage2
+(09:34:30) ERROR:   [Legendary]:       Error Getting Info from Epic API
+(09:34:30) ERROR:   [Legendary]:       Error Getting Info from Epic API
+(09:34:30) INFO:    [Legendary]:       Getting more details with 'legendary info'
+(09:34:31) INFO:    [Legendary]:       Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary --pretty-json info Wombat --platform Windows --json
+(10:37:48) INFO:    [Backend]:         Stopping Display Power Saver Blocker
+(10:37:48) INFO:    [Frontend]:        Refreshing Library
+(10:37:48) INFO:    [Legendary]:       Refreshing library...
+(10:37:48) INFO:    [Legendary]:       Updating game list
+(10:37:48) INFO:    [Legendary]:       Game List Updated
+(10:37:48) DEBUG:   [Legendary]:       Using cached install info
+(10:37:48) DEBUG:   [Legendary]:       Using cached install info
+(10:37:49) INFO:    [Legendary]:       Checking for game updates.
+(10:37:49) INFO:    [Legendary]:       Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary list-installed --check-updates --tsv
+(10:37:50) INFO:    [Legendary]:       Found 0 game(s) to update
+(10:37:50) DEBUG:   [Legendary]:       Using cached install info

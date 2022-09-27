@@ -1,0 +1,107 @@
+{
+  "app_name": "d86f9cb568014746a15f66025dcc5733",
+  "app_title": "3 out of 10, EP 3: \"Pivot Like A Champion\"",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "d86f9cb568014746a15f66025dcc5733",
+      "asset_id": "d86f9cb568014746a15f66025dcc5733",
+      "build_version": "R03_S01_E01_V007_CL16693",
+      "catalog_item_id": "c647731680bf427ca0d3f9fa41e5fed4",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "f4bbbc20a6b74295ac82b7c258739bff"
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "categories": [
+      {
+        "path": "public"
+      },
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2020-06-23T02:44:32.287Z",
+    "customAttributes": {
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CanSkipKoreanIdVerification": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "threeoutof10Ep3"
+      },
+      "MonitorPresence": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "PresenceId": {
+        "type": "STRING",
+        "value": "f4bbbc20a6b74295ac82b7c258739bff"
+      },
+      "RequirementsJson": {
+        "type": "STRING",
+        "value": "[]"
+      },
+      "UseAccessControl": {
+        "type": "STRING",
+        "value": "false"
+      }
+    },
+    "description": "3 out of 10, EP 3: \"Pivot Like A Champion\"",
+    "developer": "Terrible Posture Games, Inc.",
+    "developerId": "o-2yllrrr7vufkhal9nk3cswwgug977c",
+    "endOfSupport": false,
+    "entitlementName": "c647731680bf427ca0d3f9fa41e5fed4",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "egstore"
+    ],
+    "id": "c647731680bf427ca0d3f9fa41e5fed4",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 1080,
+        "md5": "f7d8f80df28667c85ffd563d637ce18b",
+        "size": 565248,
+        "type": "DieselGameBox",
+        "uploadedDate": "2020-08-20T02:05:51.449Z",
+        "url": "https://cdn1.epicgames.com/f4bbbc20a6b74295ac82b7c258739bff/item/EGS_3outof10EP3PivotLikeAChampion_TerriblePostureGamesInc_G1A_01-1920x1080-f7d8f80df28667c85ffd563d637ce18b.jpg",
+        "width": 1920
+      },
+      {
+        "height": 1600,
+        "md5": "417d1f1a3b308912028818b6cb0834cb",
+        "size": 561944,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2020-08-20T02:06:06.473Z",
+        "url": "https://cdn1.epicgames.com/f4bbbc20a6b74295ac82b7c258739bff/item/EGS_3outof10EP3PivotLikeAChampion_TerriblePostureGamesInc_S2-1200x1600-417d1f1a3b308912028818b6cb0834cb.jpg",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2020-08-24T14:23:03.983Z",
+    "namespace": "f4bbbc20a6b74295ac82b7c258739bff",
+    "releaseInfo": [
+      {
+        "appId": "d86f9cb568014746a15f66025dcc5733",
+        "dateAdded": "2020-06-23T00:00:00.000Z",
+        "id": "9fc7e98a88e441af892e20ce7fdc0aa3",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "status": "ACTIVE",
+    "title": "3 out of 10, EP 3: \"Pivot Like A Champion\"",
+    "unsearchable": true
+  }
+}

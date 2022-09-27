@@ -1,0 +1,35 @@
+(13:23:03) INFO:    [Legendary]:       Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary --version
+(13:23:03) INFO:    [Legendary]:       Legendary location: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary
+(13:23:03) INFO:    [Gog]:             GOGDL location: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl
+(13:23:03) INFO:    [Backend]:         
+
+Heroic Version: 2.4.3 Chopper
+Legendary Version:  0.20.28 Dark Energy (hotfix #2)
+OS: Arch KERNEL: 5.19.8-arch1-1 ARCH: x64
+CPU: AMD Ryzen 7 3700X 8-Core Processor @3.6 GOVERNOR: schedutil
+RAM: Total: 15.51 GiB Available: 12.97 GiB
+GRAPHICS: GPU0: Navi 23 [Radeon RX 6600/6600 XT/6600M] VRAM: 1MB DRIVER:  
+PROTOCOL: tty
+
+(13:23:04) WARNING: [Backend]:         Failed to register protocol with OS.
+(13:23:04) INFO:    [Backend]:         AreWeAntiCheatYet data downloaded
+(13:23:06) INFO:    [Backend]:         Downloaded Winetricks
+(13:23:07) INFO:    [Backend]:         Checking for new Heroic Updates
+(13:23:08) INFO:    [Frontend]:        Refreshing Library
+(13:23:08) INFO:    [Legendary]:       Refreshing library...
+(13:23:08) INFO:    [Legendary]:       Refreshing Epic Games...
+(13:23:08) INFO:    [ProtocolHandler]: received 'heroic://launch/Albacore'
+(13:23:08) INFO:    [Legendary]:       Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary list
+(13:23:08) INFO:    [Backend]:         Launching Assassins Creed Syndicate (Albacore)
+(13:23:08) INFO:    [Backend]:         Preventing display from sleep
+(13:23:08) INFO:    [Legendary]:       Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary --version
+(13:23:09) INFO:    [Legendary]:       Updating game list
+(13:23:09) INFO:    [Legendary]:       Game List Updated
+(13:23:09) WARNING: [Backend]:         You are using Proton, this can lead to some bugs. Please do not open issues with bugs related to games
+(13:23:09) WARNING: [Legendary]:       No Steam runtime found
+(13:23:09) INFO:    [Legendary]:       Launching Assassins Creed Syndicate: SteamGameId=heroic-AssassinsCreedSyndicate STEAM_COMPAT_CLIENT_INSTALL_PATH=/home/talocha/.steam/steam STEAM_COMPAT_DATA_PATH=/home/talocha/Games/Heroic/Prefixes/AssassinsCreedSyndicate PROTON_NO_ESYNC=1 PROTON_NO_FSYNC=1 STEAM_COMPAT_APP_ID=0 PROTON_LOG_DIR=/home/talocha /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary launch Albacore --language en --no-wine --wrapper "'/home/talocha/.config/heroic/tools/proton/Proton-GE-Proton7-24/proton' run"
+(13:23:10) INFO:    [Legendary]:       Checking for game updates.
+(13:23:10) INFO:    [Legendary]:       Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary list-installed --check-updates --tsv
+(13:23:11) INFO:    [Legendary]:       Found 0 game(s) to update
+(13:23:11) INFO:    [Gog]:             Found 0 game(s) to update
+(13:23:12) INFO:    [Backend]:         Stopping Display Power Saver Blocker

@@ -1,0 +1,15 @@
+2022/09/12-18:48:34.001 451ac Reusing MANIFEST /home/talocha/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/09/12-18:48:34.001 451ac Recovering log #40
+2022/09/12-18:48:34.004 451ac Reusing old log /home/talocha/.config/discord/Local Storage/leveldb/000040.log 
+2022/09/12-18:53:34.894 451d7 Level-0 table #44: started
+2022/09/12-18:53:34.899 451d7 Level-0 table #44: 13514 bytes OK
+2022/09/12-18:53:34.905 451d7 Delete type=0 #40
+2022/09/12-18:53:34.905 451d7 Compacting 4@0 + 1@1 files
+2022/09/12-18:53:34.917 451d7 Generated table #45@0: 117 keys, 1012383 bytes
+2022/09/12-18:53:34.917 451d7 Compacted 4@0 + 1@1 files => 1012383 bytes
+2022/09/12-18:53:34.923 451d7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/09/12-18:53:34.923 451d7 Delete type=2 #41
+2022/09/12-18:53:34.923 451d7 Delete type=2 #44
+2022/09/12-18:53:34.923 451d7 Delete type=2 #38
+2022/09/12-18:53:34.923 451d7 Delete type=2 #35
+2022/09/12-18:53:34.923 451d7 Delete type=2 #32

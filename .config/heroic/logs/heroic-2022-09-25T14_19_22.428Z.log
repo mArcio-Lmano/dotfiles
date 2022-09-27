@@ -1,0 +1,33 @@
+(15:19:22) INFO:    [Legendary]:       Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary --version
+(15:19:23) INFO:    [Legendary]:       Legendary location: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary
+(15:19:23) INFO:    [Gog]:             GOGDL location: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl
+(15:19:23) INFO:    [Backend]:         
+
+Heroic Version: 2.4.3 Chopper
+Legendary Version:  0.20.28 Dark Energy (hotfix #2)
+OS: Arch KERNEL: 5.19.10-arch1-1 ARCH: x64
+CPU: AMD Ryzen 7 3700X 8-Core Processor @3.6 GOVERNOR: schedutil
+RAM: Total: 15.51 GiB Available: 14.43 GiB
+GRAPHICS: GPU0: Navi 23 [Radeon RX 6600/6600 XT/6600M] VRAM: 1MB DRIVER:  
+PROTOCOL: tty
+
+(15:19:23) WARNING: [Backend]:         Failed to register protocol with OS.
+(15:19:23) INFO:    [Backend]:         AreWeAntiCheatYet data downloaded
+(15:19:23) INFO:    [Backend]:         Checking for new Heroic Updates
+(15:19:23) INFO:    [Frontend]:        Refreshing Library
+(15:19:23) INFO:    [Legendary]:       Refreshing library...
+(15:19:23) INFO:    [Legendary]:       Refreshing Epic Games...
+(15:19:24) INFO:    [Legendary]:       Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary list
+(15:19:26) INFO:    [Legendary]:       Updating game list
+(15:19:26) INFO:    [Legendary]:       Game List Updated
+(15:19:26) INFO:    [Backend]:         Downloaded Winetricks
+(15:19:26) INFO:    [Legendary]:       Checking for game updates.
+(15:19:26) INFO:    [Legendary]:       Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary list-installed --check-updates --tsv
+(15:19:27) INFO:    [Legendary]:       Found 0 game(s) to update
+(15:19:27) INFO:    [Gog]:             Found 0 game(s) to update
+(15:19:56) INFO:    [Backend]:         Launching Batman™ Arkham City - Game of the Year Edition (Egret)
+(15:19:56) INFO:    [Backend]:         Preventing display from sleep
+(15:19:56) INFO:    [Legendary]:       Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary --version
+(15:19:56) DEBUG:   [Legendary]:       Running Wine command: "/home/talocha/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine" wineboot --init
+(15:20:03) DEBUG:   [Legendary]:       Ran Wine command: "/home/talocha/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine" wineboot --init
+(15:20:03) INFO:    [Legendary]:       Launching Batman™ Arkham City - Game of the Year Edition: LD_PRELOAD= WINEPREFIX=/home/talocha/Games/Heroic/Prefixes/BatmanArkhamCity DXVK_HUD=fps WINE_FULLSCREEN_FSR=1 WINE_FULLSCREEN_FSR_STRENGTH=5 WINEFSYNC=1 /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary launch Egret --language en --wine /home/talocha/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine --wine-prefix /home/talocha/Games/Heroic/Prefixes/BatmanArkhamCity

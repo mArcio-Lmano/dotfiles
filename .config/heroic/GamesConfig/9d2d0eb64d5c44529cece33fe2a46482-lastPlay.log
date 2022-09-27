@@ -1,0 +1,34 @@
+Launch Command: WINEPREFIX=/home/talocha/Games/Heroic/Prefixes/GTAV /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary launch 9d2d0eb64d5c44529cece33fe2a46482 --wine /home/talocha/.config/heroic/tools/wine/Wine-lutris-wine-7.2-2/bin/wine --wine-prefix /home/talocha/Games/Heroic/Prefixes/GTAV --skip-version-check
+
+System Info:
+Heroic Version: 2.3.10 Brook
+Legendary Version:  0.20.27 Dark Energy (hotfix)
+OS: Arch KERNEL: 5.18.15-arch1-1 ARCH: x64
+CPU: AMD Ryzen 7 3700X 8-Core Processor @3.6 GOVERNOR: schedutil
+RAM: Total: 15.51 GiB Available: 11.89 GiB
+GRAPHICS: GPU0: Navi 23 [Radeon RX 6600/6600 XT/6600M] VRAM: 1MB DRIVER:  
+PROTOCOL: tty
+
+Game Settings: {
+	"autoInstallDxvk": true,
+	"autoInstallVkd3d": true,
+	"maxSharpness": 2,
+	"nvidiaPrime": false,
+	"otherOptions": "",
+	"savesPath": "",
+	"showFps": false,
+	"targetExe": "",
+	"useGameMode": false,
+	"wineCrossoverBottle": "Heroic",
+	"winePrefix": "/home/talocha/Games/Heroic/Prefixes/GTAV",
+	"wineVersion": {
+		"bin": "/home/talocha/.config/heroic/tools/wine/Wine-lutris-wine-7.2-2/bin/wine",
+		"name": "Wine - Wine-lutris-wine-7.2-2",
+		"type": "wine",
+		"wineserver": "/home/talocha/.config/heroic/tools/wine/Wine-lutris-wine-7.2-2/bin/wineserver",
+		"wineboot": "/home/talocha/.config/heroic/tools/wine/Wine-lutris-wine-7.2-2/bin/wineboot"
+	}
+}
+
+Error Log:
+[cli] ERROR: Game 9d2d0eb64d5c44529cece33fe2a46482 is not currently installed!

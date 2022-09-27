@@ -1,0 +1,33 @@
+{
+  "Egret": {
+    "autoInstallDxvk": true,
+    "autoInstallVkd3d": false,
+    "preferSystemLibs": true,
+    "enableFSR": true,
+    "enableFsync": true,
+    "maxSharpness": 5,
+    "language": "",
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "savesPath": "",
+    "showFps": true,
+    "targetExe": "",
+    "useGameMode": false,
+    "winePrefix": "/home/talocha/Games/Heroic/Prefixes/BatmanArkhamCity",
+    "wineVersion": {
+      "bin": "/home/talocha/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wine",
+      "name": "Wine - lutris-7.2-2-x86_64",
+      "type": "wine",
+      "lib": "/home/talocha/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/lib64",
+      "lib32": "/home/talocha/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/lib",
+      "wineserver": "/home/talocha/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wineserver",
+      "wineboot": "/home/talocha/.local/share/lutris/runners/wine/lutris-7.2-2-x86_64/bin/wineboot"
+    },
+    "eacRuntime": false,
+    "battlEyeRuntime": false,
+    "gogSaves": []
+  },
+  "version": "v0",
+  "explicit": true
+}

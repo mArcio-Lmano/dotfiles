@@ -1,0 +1,203 @@
+{
+  "app_name": "addd421d0f1d4573914f915a697054de",
+  "app_title": "HITMAN 1 GOTY Upgrade",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "addd421d0f1d4573914f915a697054de",
+      "asset_id": "addd421d0f1d4573914f915a697054de",
+      "build_version": "7",
+      "catalog_item_id": "931c36e78d0848e59bafb10e2f693213",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "1053b22ee1b74477bdf1ea3ad0e4bde0"
+      },
+      "namespace": "ed55aa5edc5941de92fd7f64de415793"
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "categories": [
+      {
+        "path": "public"
+      },
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2020-12-08T20:14:26.112Z",
+    "customAttributes": {
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CanSkipKoreanIdVerification": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "HITMAN1GOTYUpgrade"
+      },
+      "MonitorPresence": {
+        "type": "STRING",
+        "value": "false"
+      },
+      "PresenceId": {
+        "type": "STRING",
+        "value": "ed55aa5edc5941de92fd7f64de415793"
+      },
+      "RequirementsJson": {
+        "type": "STRING",
+        "value": "[]"
+      },
+      "UseAccessControl": {
+        "type": "STRING",
+        "value": "false"
+      }
+    },
+    "description": "HITMAN 1 GOTY Upgrade",
+    "developer": "IO Interactive",
+    "developerId": "o-ank8fbh38u9uzqbag2a5yt5xexb4yr",
+    "endOfSupport": false,
+    "entitlementName": "931c36e78d0848e59bafb10e2f693213",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "egstore"
+    ],
+    "id": "931c36e78d0848e59bafb10e2f693213",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 1440,
+        "md5": "aa1dc43fc4474d676e61a02af0d97da2",
+        "size": 1141072,
+        "type": "DieselGameBox",
+        "uploadedDate": "2021-01-12T21:23:29.144Z",
+        "url": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Landscape-2560x1440-aa1dc43fc4474d676e61a02af0d97da2.jpg",
+        "width": 2560
+      },
+      {
+        "height": 1600,
+        "md5": "a5a835bb91b300add70e5e4aa8a9c484",
+        "size": 533886,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2021-01-12T21:23:39.141Z",
+        "url": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/Portrait-1200x1600-a5a835bb91b300add70e5e4aa8a9c484.jpg",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2022-01-20T17:58:39.663Z",
+    "mainGameItem": {
+      "ageGatings": {},
+      "applicationId": "fghi4567xQOCheZIin0pazB47qGUvZw4",
+      "categories": [
+        {
+          "path": "public"
+        },
+        {
+          "path": "games"
+        },
+        {
+          "path": "applications"
+        }
+      ],
+      "creationDate": "2019-09-10T19:03:58.970Z",
+      "customAttributes": {
+        "CanRunOffline": {
+          "type": "STRING",
+          "value": "false"
+        },
+        "CanSkipKoreanIdVerification": {
+          "type": "STRING",
+          "value": "true"
+        },
+        "CloudSaveFolder": {
+          "type": "STRING",
+          "value": "{AppData}/../Roaming/IO Interactive/Epic/{EpicId}/HITMAN3/"
+        },
+        "FolderName": {
+          "type": "STRING",
+          "value": "HITMAN3"
+        },
+        "MaxSizeMB": {
+          "type": "STRING",
+          "value": "3000"
+        },
+        "RequirementsJson": {
+          "type": "STRING",
+          "value": "[]"
+        },
+        "UseAccessControl": {
+          "type": "STRING",
+          "value": "false"
+        }
+      },
+      "description": "HITMAN 3",
+      "developer": "IO Interactive",
+      "developerId": "o-ank8fbh38u9uzqbag2a5yt5xexb4yr",
+      "endOfSupport": false,
+      "entitlementName": "7d9ce7dd6f2e4ee98a55bd50a9bb78e0",
+      "entitlementType": "EXECUTABLE",
+      "eulaIds": [
+        "egstore"
+      ],
+      "id": "7d9ce7dd6f2e4ee98a55bd50a9bb78e0",
+      "installModes": [],
+      "itemType": "DURABLE",
+      "keyImages": [
+        {
+          "height": 1440,
+          "md5": "fe613ea24891cacef30e846e30a00982",
+          "size": 764441,
+          "type": "DieselGameBox",
+          "uploadedDate": "2020-12-09T17:17:57.239Z",
+          "url": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/HM3_wide-2560x1440-fe613ea24891cacef30e846e30a00982.jpg",
+          "width": 2560
+        },
+        {
+          "height": 1600,
+          "md5": "b285fb6eb586113c9479ff33ed646b69",
+          "size": 313042,
+          "type": "DieselGameBoxTall",
+          "uploadedDate": "2020-12-09T17:18:22.193Z",
+          "url": "https://cdn1.epicgames.com/ed55aa5edc5941de92fd7f64de415793/item/HM3_tall-1200x1600-b285fb6eb586113c9479ff33ed646b69.jpg",
+          "width": 1200
+        }
+      ],
+      "lastModifiedDate": "2022-01-20T17:58:39.663Z",
+      "longDescription": "HITMAN 3",
+      "namespace": "ed55aa5edc5941de92fd7f64de415793",
+      "releaseInfo": [
+        {
+          "appId": "Eider",
+          "dateAdded": "2019-09-10T00:00:00.000Z",
+          "id": "51204c3b58ea4e0aac3419d00bae49f1",
+          "platform": [
+            "Windows"
+          ]
+        }
+      ],
+      "status": "ACTIVE",
+      "title": "HITMAN 3",
+      "unsearchable": false
+    },
+    "namespace": "ed55aa5edc5941de92fd7f64de415793",
+    "releaseInfo": [
+      {
+        "appId": "addd421d0f1d4573914f915a697054de",
+        "dateAdded": "2020-06-30T00:00:00.000Z",
+        "id": "1f8b3fd0116044bcbdc294c9db10a586",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "status": "ACTIVE",
+    "title": "HITMAN 1 GOTY Upgrade",
+    "unsearchable": true
+  }
+}

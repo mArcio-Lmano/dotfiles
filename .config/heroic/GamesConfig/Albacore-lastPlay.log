@@ -1,0 +1,62 @@
+System Info:
+Heroic Version: 2.4.3 Chopper
+Legendary Version:  0.20.28 Dark Energy (hotfix #2)
+OS: Arch KERNEL: 5.19.9-arch1-1 ARCH: x64
+CPU: AMD Ryzen 7 3700X 8-Core Processor @3.6 GOVERNOR: schedutil
+RAM: Total: 15.51 GiB Available: 11.18 GiB
+GRAPHICS: GPU0: Navi 23 [Radeon RX 6600/6600 XT/6600M] VRAM: 1MB DRIVER:  
+PROTOCOL: tty
+
+Game Settings: {
+	"autoInstallDxvk": false,
+	"autoInstallVkd3d": true,
+	"preferSystemLibs": true,
+	"maxSharpness": 2,
+	"language": "",
+	"nvidiaPrime": false,
+	"enviromentOptions": [],
+	"wrapperOptions": [],
+	"savesPath": "",
+	"showFps": false,
+	"targetExe": "",
+	"useGameMode": false,
+	"winePrefix": "/home/talocha/Games/Heroic/Prefixes/AssassinsCreedSyndicate",
+	"wineVersion": {
+		"bin": "/home/talocha/.local/share/lutris/runners/wine/lutris-fshack-7.2-x86_64/bin/wine",
+		"name": "Wine - lutris-fshack-7.2-x86_64",
+		"type": "wine",
+		"lib": "/home/talocha/.local/share/lutris/runners/wine/lutris-fshack-7.2-x86_64/lib64",
+		"lib32": "/home/talocha/.local/share/lutris/runners/wine/lutris-fshack-7.2-x86_64/lib",
+		"wineserver": "/home/talocha/.local/share/lutris/runners/wine/lutris-fshack-7.2-x86_64/bin/wineserver",
+		"wineboot": "/home/talocha/.local/share/lutris/runners/wine/lutris-fshack-7.2-x86_64/bin/wineboot"
+	},
+	"eacRuntime": false,
+	"battlEyeRuntime": false,
+	"gogSaves": []
+}
+
+Game launched at: Sat Sep 17 2022 13:58:45 GMT+0100 (Western European Summer Time)
+
+Launch Command: LD_PRELOAD= WINEPREFIX=/home/talocha/Games/Heroic/Prefixes/AssassinsCreedSyndicate /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary launch Albacore --language en  --wine /home/talocha/.local/share/lutris/runners/wine/lutris-fshack-7.2-x86_64/bin/wine --wine-prefix /home/talocha/Games/Heroic/Prefixes/AssassinsCreedSyndicate
+
+Game Log:
+[cli] INFO: Logging in...
+[Core] INFO: Trying to re-use existing login session...
+[cli] INFO: Checking for updates...
+[Core] INFO: Getting authentication token...
+[cli] INFO: Launching Albacore...
+wineserver: using server-side synchronization.
+
+Legendary update available!
+- New version: 0.20.29 - "Dark Energy (hotfix #3)"
+- Release summary:
+ [!] Adds workaround for Epic CDN issue (403 when downloading manifest)
+ [!] Fixes potential zero division error when verifying large files on fast SSDs
+See full changelog for additional details.
+- Release URL: https://legendary.gl/release/0.20.29
+! This update is recommended as it fixes major issues.
+
+- Download URL: https://legendary.gl/release/download/0.20.29/legendary
+002c:fixme:winediag:LdrInitializeThunk Lutris Wine 7.2 is a testing version containing experimental patches.
+002c:fixme:winediag:LdrInitializeThunk Please don't report bugs about it on winehq.org and use https://github.com/lutris/wine/issues instead.
+0104:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFA, 0088FEAC

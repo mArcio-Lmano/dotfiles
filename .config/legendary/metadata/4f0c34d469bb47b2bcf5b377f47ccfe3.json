@@ -1,0 +1,224 @@
+{
+  "app_name": "4f0c34d469bb47b2bcf5b377f47ccfe3",
+  "app_title": "theHunter: Call of the Wild\u2122",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "4f0c34d469bb47b2bcf5b377f47ccfe3",
+      "asset_id": "4f0c34d469bb47b2bcf5b377f47ccfe3",
+      "build_version": "0.0.1049",
+      "catalog_item_id": "7333ebed726f408e8f3bfa650488d32e",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "c7f9346e3db148fca6dd63e9dd8451bd"
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "applicationId": "fghi4567ViXXa2ZNYtHlbch78Tr8MxL1",
+    "categories": [
+      {
+        "path": "public"
+      },
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2020-06-12T16:57:54.341Z",
+    "customAttributes": {
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CanSkipKoreanIdVerification": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "theHunterCallOfTheWild"
+      },
+      "MonitorPresence": {
+        "type": "STRING",
+        "value": "false"
+      },
+      "PresenceId": {
+        "type": "STRING",
+        "value": "c7f9346e3db148fca6dd63e9dd8451bd"
+      },
+      "RequirementsJson": {
+        "type": "STRING",
+        "value": "[]"
+      },
+      "UseAccessControl": {
+        "type": "STRING",
+        "value": "false"
+      }
+    },
+    "description": "theHunter: Call of the Wild\u2122",
+    "developer": "Expansive Worlds AB",
+    "developerId": "o-s22ys6lvw4qa9tvpqsnwkqmtug2ey7",
+    "dlcItemList": [
+      {
+        "categories": [
+          {
+            "path": "addons"
+          }
+        ],
+        "creationDate": "2022-03-17T18:09:58.983Z",
+        "customAttributes": {
+          "CanRunOffline": {
+            "type": "STRING",
+            "value": "true"
+          }
+        },
+        "description": "theHunter: Call of the Wild\u2122 - RDLC",
+        "developer": "Expansive Worlds AB",
+        "developerId": "o-s22ys6lvw4qa9tvpqsnwkqmtug2ey7",
+        "endOfSupport": false,
+        "entitlementName": "ddc7477e5e4043fb9745327573ca7325",
+        "entitlementType": "EXECUTABLE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "ddc7477e5e4043fb9745327573ca7325",
+        "itemType": "DURABLE",
+        "lastModifiedDate": "2022-03-17T18:09:58.983Z",
+        "mainGameItem": {
+          "id": "7333ebed726f408e8f3bfa650488d32e",
+          "namespace": "c7f9346e3db148fca6dd63e9dd8451bd",
+          "unsearchable": false
+        },
+        "namespace": "c7f9346e3db148fca6dd63e9dd8451bd",
+        "releaseInfo": [],
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "theHunter: Call of the Wild\u2122 - RDLC",
+        "unsearchable": true
+      },
+      {
+        "ageGatings": {},
+        "applicationId": "",
+        "categories": [
+          {
+            "path": "addons"
+          }
+        ],
+        "creationDate": "2022-06-22T19:04:31.701Z",
+        "customAttributes": {
+          "CanRunOffline": {
+            "type": "STRING",
+            "value": "true"
+          }
+        },
+        "description": "ASP",
+        "developer": "Expansive Worlds AB",
+        "developerId": "o-s22ys6lvw4qa9tvpqsnwkqmtug2ey7",
+        "endOfSupport": false,
+        "entitlementName": "5e089a943f39459e9669d38df62fe364",
+        "entitlementType": "EXECUTABLE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "5e089a943f39459e9669d38df62fe364",
+        "itemType": "DURABLE",
+        "lastModifiedDate": "2022-09-27T08:52:31.264Z",
+        "mainGameItem": {
+          "id": "7333ebed726f408e8f3bfa650488d32e",
+          "namespace": "c7f9346e3db148fca6dd63e9dd8451bd",
+          "unsearchable": false
+        },
+        "namespace": "c7f9346e3db148fca6dd63e9dd8451bd",
+        "releaseInfo": [],
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "ASP",
+        "unsearchable": true
+      },
+      {
+        "categories": [
+          {
+            "path": "addons"
+          }
+        ],
+        "creationDate": "2022-07-07T20:07:15.249Z",
+        "customAttributes": {
+          "CanRunOffline": {
+            "type": "STRING",
+            "value": "true"
+          }
+        },
+        "description": "Call of the Wild - HSCP DLC",
+        "developer": "Expansive Worlds AB",
+        "developerId": "o-s22ys6lvw4qa9tvpqsnwkqmtug2ey7",
+        "endOfSupport": false,
+        "entitlementName": "f965a7f6831148f3b46233f32ded6551",
+        "entitlementType": "EXECUTABLE",
+        "eulaIds": [
+          "egstore"
+        ],
+        "id": "f965a7f6831148f3b46233f32ded6551",
+        "itemType": "DURABLE",
+        "lastModifiedDate": "2022-07-07T20:07:15.249Z",
+        "mainGameItem": {
+          "id": "7333ebed726f408e8f3bfa650488d32e",
+          "namespace": "c7f9346e3db148fca6dd63e9dd8451bd",
+          "unsearchable": false
+        },
+        "namespace": "c7f9346e3db148fca6dd63e9dd8451bd",
+        "releaseInfo": [],
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Call of the Wild - HSCP DLC",
+        "unsearchable": true
+      }
+    ],
+    "endOfSupport": false,
+    "entitlementName": "7333ebed726f408e8f3bfa650488d32e",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "egstore"
+    ],
+    "id": "7333ebed726f408e8f3bfa650488d32e",
+    "installModes": [],
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 1440,
+        "md5": "69120885e0b3acfb87f34ac0bad68ec6",
+        "size": 578266,
+        "type": "DieselGameBox",
+        "uploadedDate": "2021-11-25T16:06:42.854Z",
+        "url": "https://cdn1.epicgames.com/item/c7f9346e3db148fca6dd63e9dd8451bd/EGS_theHunterCalloftheWild_ExpansiveWorlds_S1_2560x1440_2560x1440-69120885e0b3acfb87f34ac0bad68ec6",
+        "width": 2560
+      },
+      {
+        "height": 1600,
+        "md5": "1e9b46aaabc33fe0a08cf5b418e76ba2",
+        "size": 321518,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2021-11-25T16:06:50.072Z",
+        "url": "https://cdn1.epicgames.com/item/c7f9346e3db148fca6dd63e9dd8451bd/EGS_theHunterCalloftheWild_ExpansiveWorlds_S2_1200x1600_1200x1600-1e9b46aaabc33fe0a08cf5b418e76ba2",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2021-11-25T16:13:16.318Z",
+    "namespace": "c7f9346e3db148fca6dd63e9dd8451bd",
+    "releaseInfo": [
+      {
+        "appId": "4f0c34d469bb47b2bcf5b377f47ccfe3",
+        "dateAdded": "2021-03-03T15:43:21.510Z",
+        "id": "546ead346b3a425bac3c7061c7174081",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "status": "ACTIVE",
+    "title": "theHunter: Call of the Wild\u2122",
+    "unsearchable": false
+  }
+}

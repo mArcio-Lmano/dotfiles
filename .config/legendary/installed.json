@@ -1,0 +1,56 @@
+{
+  "Egret": {
+    "app_name": "Egret",
+    "base_urls": [
+      "https://download.epicgames.com/Builds/Org/o-7kyv8uwtz74njnl544kbxzt5xqephw/f7caa001841e43418e0dcac647eed1b0/default",
+      "https://download2.epicgames.com/Builds/Org/o-7kyv8uwtz74njnl544kbxzt5xqephw/f7caa001841e43418e0dcac647eed1b0/default",
+      "https://download3.epicgames.com/Builds/Org/o-7kyv8uwtz74njnl544kbxzt5xqephw/f7caa001841e43418e0dcac647eed1b0/default",
+      "https://download4.epicgames.com/Builds/Org/o-7kyv8uwtz74njnl544kbxzt5xqephw/f7caa001841e43418e0dcac647eed1b0/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-7kyv8uwtz74njnl544kbxzt5xqephw/f7caa001841e43418e0dcac647eed1b0/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-7kyv8uwtz74njnl544kbxzt5xqephw/f7caa001841e43418e0dcac647eed1b0/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "Binaries/Win32/Batman2.exe",
+    "install_path": "/home/talocha/Games/Heroic/BatmanArkhamCity",
+    "install_size": 22852679621,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": false,
+    "save_path": null,
+    "title": "Batman\u2122 Arkham City - Game of the Year Edition",
+    "version": "1.7"
+  },
+  "ad3d0f08dd0841d8a1ba77d94ded4773": {
+    "app_name": "ad3d0f08dd0841d8a1ba77d94ded4773",
+    "base_urls": [
+      "https://download.epicgames.com/Builds/Org/o-bthbhn6wd7fzj73v5p4436ucn3k37u/d547e3fd34d34a4e87376c3d5590506f/default",
+      "https://download2.epicgames.com/Builds/Org/o-bthbhn6wd7fzj73v5p4436ucn3k37u/d547e3fd34d34a4e87376c3d5590506f/default",
+      "https://download3.epicgames.com/Builds/Org/o-bthbhn6wd7fzj73v5p4436ucn3k37u/d547e3fd34d34a4e87376c3d5590506f/default",
+      "https://download4.epicgames.com/Builds/Org/o-bthbhn6wd7fzj73v5p4436ucn3k37u/d547e3fd34d34a4e87376c3d5590506f/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-bthbhn6wd7fzj73v5p4436ucn3k37u/d547e3fd34d34a4e87376c3d5590506f/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-bthbhn6wd7fzj73v5p4436ucn3k37u/d547e3fd34d34a4e87376c3d5590506f/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "RAGE2.exe",
+    "install_path": "/home/talocha/Games/Heroic/Rage2",
+    "install_size": 47476041295,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": false,
+    "save_path": null,
+    "title": "Rage 2",
+    "version": "1.8"
+  }
+}
