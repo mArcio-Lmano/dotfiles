@@ -85,7 +85,7 @@ myModMask       = mod4Mask
 --
 -- > workspaces = ["web", "irc", "code" ] ++ map show [4..9]
 --
-myWorkspaces    = ["\61728 ","2","3","4","5","6","7","8","9"]
+myWorkspaces    = ["1","2","3","4","5","6","7","8","9"]
 
 --xmobarEscape = concatMap doubleLts
 --  where doubleLts '<' = "<<"
@@ -369,6 +369,8 @@ myLayout = smartBorders $ avoidStruts $ myGaps $ tiled ||| resizeble ||| Mirror 
 myManageHook = composeAll
     [ className =? "MPlayer"        --> doFloat
     , className =? "Gimp"           --> doFloat
+    , className =? "Tk"             --> doFloat
+    , className =? "Toplevel"       --> doFloat
     , resource  =? "desktop_window" --> doIgnore
     , resource  =? "kdesktop"       --> doIgnore ]
 
@@ -413,7 +415,7 @@ toggleStrutsKey XConfig {XMonad.modMask = modMask} = (modMask, xK_s)
 -- By default, do nothing.
 myStartupHook :: X ()
 myStartupHook = do
-                spawnOnce "picom -b -C -G --experimental-backends" 
+                spawnOnce "picom -b -C -G" 
                 spawnOnce "~/.fehbg"
                 spawnOnce "xmobar -x 0 /home/talocha/.config/xmobar/xmobarrc"
                 spawnOnce "/usr/bin/emacs --daemon"

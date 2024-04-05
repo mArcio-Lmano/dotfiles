@@ -18,7 +18,7 @@ Config {
    -- layout
    , sepChar =  "%"   -- delineator between plugin names and straight text
    , alignSep = "}{"  -- separator between left-right alignment
-   , template = " <fn=5>%UnsafeStdinReader%</fn> <fc=#a7d407><action=`alacritty -e sudo pacman -Syu`>%linux%</action> <box type=Full width=2 color=#a7d407> %uname% </box> </fc>}%date%{%cpu% %multicoretemp%  %disku% %rootIcon% %root% %memory% %dynnetwork% <fn=2>%speaker%</fn> <fc=#a7d407>%volume%</fc> <action=`alacritty -e bluetoothctl power on`>%bluetooth%</action> %padding%"
+   , template = " <fn=5>%UnsafeStdinReader%</fn> <fc=#a7d407><action=`alacritty -e sudo pacman -Syu`>%linux%</action>   <box type=Full width=2 color=#a7d407> %uname% </box> </fc>} %date% {%cpu% %multicoretemp%  %disku% %rootIcon% %root% %memory% %dynnetwork% <fn=2>%speaker%</fn> <fc=#a7d407>%volume%</fc> <action=`alacritty -e bluetoothctl connect 90:23:5B:A5:F4:F6`>%bluetooth%</action> %padding%"
 
    -- general behavior
    , lowerOnStart =     True    -- send to bottom of window stack on start
@@ -46,7 +46,7 @@ Config {
    , commands = [
 
         -- network activity monitor (dynamic interface resolution)
-        Run DynNetwork     [ "--template" , "<fn=2>\xf093</fn> <tx>kB/s  <fn=2>\xf019</fn> <rx>kB/s"
+        Run DynNetwork     [ "--template" , "<fn=2>\xf093</fn>  <tx>kB/s  <fn=2>\xf019</fn>  <rx>kB/s"
 
                            , "--Low"      , "10000"          -- units: B/s
                            , "--High"     , "2000000"        -- units: B/s
@@ -56,7 +56,7 @@ Config {
                            ] 10
 
         -- cpu activity monitor
-        , Run Cpu       [ "--template" , "<fn=2>\xf2db</fn> <total>%"
+        , Run Cpu       [ "--template" , "<fn=2>\xf2db</fn>  <total>%"
                         , "--Low"      , "50"         -- units: %
                         , "--High"     , "85"         -- units: %
                         , "--low"      , "#a7d407"
@@ -84,7 +84,7 @@ Config {
 --					  ] 50
 
 			-- Storage Usage
-		, Run DiskU [ ("nvme0n1p3", "<fn=6>\xf7c9</fn> <used>/<size>")]
+		, Run DiskU [ ("nvme0n1p3", "<fn=6>\xf7c9</fn>  <used>/<size>")]
                     [  "-L"       , "50"
 				    ,  "-H"       , "80"
 					,  "-l"       , "#a7d407"
@@ -95,7 +95,7 @@ Config {
 				    ] 20
 
         -- cpu core temperature monitor, not working in the moment, i will try with k10temp
-        , Run MultiCoreTemp       [ "--template"         , "<fn=2>\xf2c9</fn> <avg>°C"
+        , Run MultiCoreTemp       [ "--template"         , "<fn=2>\xf2c9</fn>  <avg>°C"
 		                          , "-hwmon-path"        , "/sys/class/hwmon/hwmon1"
                                   , "--Low"              , "60"        -- units: °C
                                   , "--High"             , "80"        -- units: °C
@@ -105,7 +105,7 @@ Config {
                                   ] 50
                           
         -- memory usage monitor
-        , Run Memory         [ "--template" ,"<fn=2>\xf538</fn> <usedratio>%"
+        , Run Memory         [ "--template" ,"<fn=2>\xf538</fn>  <usedratio>%"
                              , "--Low"      , "50"        -- units: %
                              , "--High"     , "90"        -- units: %
 							 , "--low"      , "#a7d407"
@@ -136,7 +136,7 @@ Config {
 		, Run Com "/bin/bash" ["/home/talocha/.local/bin/padding_tray.sh"] "padding" 1
 		 -- time and date indicator 
         --   (%F = y-m-d date, %a = day of week, %T = h:m:s time)
-        , Run Date           "<fn=2>\xf073</fn> <fc=#a7d407>%d-%b-%y</fc>  <fn=2>\xf017</fn> <fc=#a7d407>%H:%M</fc>" "date" 10
+        , Run Date           "<fn=2>\xf073</fn>  <fc=#a7d407>%d-%b-%y</fc>  <fn=2>\xf017</fn>  <fc=#a7d407>%H:%M</fc>" "date" 10
 
         ]
    }

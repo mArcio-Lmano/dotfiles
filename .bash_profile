@@ -1,12 +1,14 @@
 #
 # ~/.bash_profile
 #
+#
 
-
-
-[[ -f ~/.bashrc ]] && . ~/.bashrc
+PATH=$PATH:$HOME/.local/bin
+export PATH
 
 if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
-  exec startx
+	exec startx
 fi
 
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+. "$HOME/.cargo/env"
