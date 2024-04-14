@@ -1,5 +1,4 @@
 -- Imports
-
 import XMonad
 import Data.Monoid
 import System.Exit
@@ -29,7 +28,8 @@ import XMonad.Layout.MultiToggle.Instances
 import XMonad.Layout.NoBorders
 
 -- Screen Shot
-import XMonad.Util.Ungrab
+-- import XMonad.Util.Ungrab
+import XMonad.Operations
 
 -- Terminal on Startup
 import XMonad.Actions.SpawnOn
@@ -47,6 +47,11 @@ import XMonad.Layout.ResizableTile
  --------------------------------
 import qualified XMonad.StackSet as W
 import qualified Data.Map        as M
+
+
+import XMonad.ManageHook
+import XMonad.Util.NamedScratchpad
+
 
 -- The preferred terminal program, which is used in a binding below and by
 -- certain contrib modules.
@@ -262,7 +267,9 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     , ((modm               , xK_b    ), bringSelected $ mygridConfig myColorizer)
     , ((modm               , xK_w    ), gridselectWorkspace mygridConfigW W.greedyView)
     --, ((modm               , xK_w    ), gridselectWorkspace' mygridConfigW gsWorkspaces)
-
+    
+    -- ScratchPads
+    , ((modm .|. shiftMask, xK_t), namedScratchpadAction myScratchPads "terminal")
 
     -- Quit xmonad
     , ((modm .|. shiftMask, xK_c     ), io (exitWith ExitSuccess))
@@ -365,15 +372,46 @@ myLayout = smartBorders $ avoidStruts $ myGaps $ tiled ||| resizeble ||| Mirror 
 --
 -- To match on the WM_NAME, you can use 'title' in the same way that
 -- 'className' and 'resource' are used below.
---
+-- Scratch Pads
+
+myScratchPads :: [NamedScratchpad]
+myScratchPads = [ NS "terminal" spawnTerm findTerm manageTerm
+-- , NS "mocp" spawnMocp findMocp manageMocp
+ ]
+    where
+    spawnTerm  = myTerminal ++ " -t scratchpad"
+    findTerm   = title =? "scratchpad"
+    manageTerm = customFloating $ W.RationalRect l t w h
+        where
+        h = 0.5
+        w = 0.5
+        t = (1 - h) / 2  -- Center vertically
+        l = (1 - w) / 2  -- Center horizontally
+-- spawnMocp  = myTerminal ++ " -t mocp -e mocp"
+-- findMocp   = title =? "mocp"
+-- manageMocp = customFloating $ W.RationalRect l t w h
+--            where
+--              h = 0.9
+--              w = 0.9
+--              t = 0.95 -h
+--              l = 0.95 -w
+
 myManageHook = composeAll
     [ className =? "MPlayer"        --> doFloat
     , className =? "Gimp"           --> doFloat
     , className =? "Tk"             --> doFloat
     , className =? "Toplevel"       --> doFloat
     , resource  =? "desktop_window" --> doIgnore
-    , resource  =? "kdesktop"       --> doIgnore ]
+    , resource  =? "kdesktop"       --> doIgnore ] <+> namedScratchpadManageHook myScratchPads
 
+--
+--
+--
+-- scratchpads = [
+--     NS "terminal" myTerminal (title =? "terminal") defaultFloating
+--  ] where role = stringProperty "WM_WINDOW_ROLE"
+--
+-- myScratchpadHook = namedScratchpadManageHook scratchpads
 ------------------------------------------------------------------------
 -- Event handling
 
@@ -415,14 +453,14 @@ toggleStrutsKey XConfig {XMonad.modMask = modMask} = (modMask, xK_s)
 -- By default, do nothing.
 myStartupHook :: X ()
 myStartupHook = do
-                spawnOnce "picom -b -C -G" 
+                spawnOnce "picom -b"
                 spawnOnce "~/.fehbg"
                 spawnOnce "xmobar -x 0 /home/talocha/.config/xmobar/xmobarrc"
-                spawnOnce "/usr/bin/emacs --daemon"
                 spawnOnce "trayer --transparent true --alpha 0 --tint black --edge top --align right --height 25 --widthtype request"
                 setDefaultCursor xC_left_ptr
                 mySpawn "1" "alacritty"
                 mySpawn "1" "alacritty"
+                -- spawnOnce "/usr/bin/emacs --daemon"
 
 mySpawn :: String -> String -> X()
 mySpawn workspace program = do
