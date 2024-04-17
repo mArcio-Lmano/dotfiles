@@ -48,10 +48,13 @@ import XMonad.Layout.ResizableTile
 import qualified XMonad.StackSet as W
 import qualified Data.Map        as M
 
-
+--ScratchPads
 import XMonad.ManageHook
 import XMonad.Util.NamedScratchpad
+import XMonad.Hooks.OnPropertyChange
 
+-- Window Swallowing
+import XMonad.Hooks.WindowSwallowing
 
 -- The preferred terminal program, which is used in a binding below and by
 -- certain contrib modules.
@@ -209,7 +212,6 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     , ((modm,               xK_f        ), spawn "firefox")
 
     -- lauch mocp (Music On Consule, not working)
-    --, ((modm .|. shiftMask, xK_m     ), spawn "mocp")
 
     -- screen shot
     , ((0,                  xK_Print    ), unGrab >> spawn "scrot -u ~/Images/Screenshots/%Y-%m-%d-%T-screenshot.png") -- focused window
@@ -270,7 +272,8 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     
     -- ScratchPads
     , ((modm .|. shiftMask, xK_t), namedScratchpadAction myScratchPads "terminal")
-
+    , ((modm .|. shiftMask, xK_m), namedScratchpadAction myScratchPads "music")
+    
     -- Quit xmonad
     , ((modm .|. shiftMask, xK_c     ), io (exitWith ExitSuccess))
 
@@ -376,25 +379,26 @@ myLayout = smartBorders $ avoidStruts $ myGaps $ tiled ||| resizeble ||| Mirror 
 
 myScratchPads :: [NamedScratchpad]
 myScratchPads = [ NS "terminal" spawnTerm findTerm manageTerm
--- , NS "mocp" spawnMocp findMocp manageMocp
+                , NS "music" spawnMusic findMusic manageMusic
  ]
     where
     spawnTerm  = myTerminal ++ " -t scratchpad"
     findTerm   = title =? "scratchpad"
     manageTerm = customFloating $ W.RationalRect l t w h
         where
-        h = 0.5
-        w = 0.5
-        t = (1 - h) / 2  -- Center vertically
-        l = (1 - w) / 2  -- Center horizontally
--- spawnMocp  = myTerminal ++ " -t mocp -e mocp"
--- findMocp   = title =? "mocp"
--- manageMocp = customFloating $ W.RationalRect l t w h
---            where
---              h = 0.9
---              w = 0.9
---              t = 0.95 -h
---              l = 0.95 -w
+            h = 0.5
+            w = 0.5
+            t = (1 - h) / 2  -- Center vertically
+            l = (1 - w) / 2  -- Center horizontally
+
+    spawnMusic  = "spotify"
+    findMusic   = className =? "Spotify"
+    manageMusic = customFloating $W.RationalRect l t w h
+        where
+            h = 0.5
+            w = 0.5
+            t = (1 - h) / 2
+            l = (1 - w) / 2
 
 myManageHook = composeAll
     [ className =? "MPlayer"        --> doFloat
@@ -421,8 +425,19 @@ myManageHook = composeAll
 -- return (All True) if the default handler is to be run afterwards. To
 -- combine event hooks use mappend or mconcat from Data.Monoid.
 --
-myEventHook = mempty
+-- myEventHook = mempty
+myEventHook = onXPropertyChange "WM_NAME" (className =? "Spotify" --> floating) 
+    where 
+        floating = customFloating $W.RationalRect l t w h
+            where
+                h = 0.7
+                w = 0.7
+                t = (1 - h) / 2
+                l = (1 - w) / 2
+     
 
+-- Window Swallowing
+mySwallowEventHook = swallowEventHook (className =? "Alacritty") (return True)
 ------------------------------------------------------------------------
 -- Status bars and logging
 
@@ -499,7 +514,7 @@ defaults = def {
       -- hooks, layouts
         layoutHook         = myLayout,
         manageHook         = myManageHook,
-        handleEventHook    = myEventHook,
+        handleEventHook    = myEventHook <+> mySwallowEventHook,
         logHook            = myLogHook,
         startupHook        = myStartupHook
     }
